@@ -1,0 +1,65 @@
+
+---Downloaded files---
+The import files for: Menus and Footer Widgets were successfully downloaded!
+Initial max execution time = 360
+Files info:
+Site URL = https://royaltravelsus.com
+Data file = /home/u997496973/domains/royaltravelsus.com/public_html/wp-content/uploads/2024/03/demo-content-import-file_2024-03-06__11-59-20.xml
+Widget file = /home/u997496973/domains/royaltravelsus.com/public_html/wp-content/uploads/2024/03/demo-widgets-import-file_2024-03-06__11-59-20.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Footer Column 1 : 
+
+Custom HTML - Need My Travel Help? - Widget already exists
+Navigation Menu - No Title - Widget already exists
+
+Footer Column 2 : 
+
+Navigation Menu - Company - Widget already exists
+
+Footer Column 3 : 
+
+Navigation Menu - Other Services - Widget already exists
+
+Footer Column 4 : 
+
+Navigation Menu - No Title - Widget already exists
+
+Footer Column 5 : 
+
+Custom HTML - Mailing List - Widget already exists
+Custom HTML - No Title - Widget already exists
+
+Shop Sidebar : 
+
+Product Search - Destination or Hotel Name - Widget already exists
+MyTravel - View Map - No Title - Widget already exists
+MyTravel Product Filter - No Title - Widget already exists
+
+Product Filters : 
+
+MyTravel Filter Products by Gold Star Rating - Star Rating - Widget already exists
+Filter Products by Rating - Guest Star Rating - Widget already exists
+Filter Products by Price - Price Range ($) - Widget already exists
+MyTravel Filter Products by Attribute - Meals - Widget already exists
+MyTravel Filter Products by Attribute - Facilities - Widget already exists
+MyTravel Filter Products by Attribute - Property Type - Widget already exists
+MyTravel Filter Products by Attribute - City - Widget already exists
+MyTravel Filter Products by Attribute - Duration - Widget already exists
+MyTravel Filter Products by Attribute - Languages - Widget already exists
+MyTravel Filter Products by Attribute - Categories - Widget already exists
+MyTravel Filter Products by Attribute - Categories - Widget already exists
+
+
+
+---ocdi/after_import---
+

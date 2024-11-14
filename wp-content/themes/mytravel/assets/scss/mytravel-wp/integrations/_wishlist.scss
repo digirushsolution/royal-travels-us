@@ -1,0 +1,79 @@
+.list-group-item > .yith-wcwl-add-to-wishlist,
+.loop-wishlist > .yith-wcwl-add-to-wishlist {
+    margin-top: 0;
+
+    .single_add_to_wishlist > i {
+        margin-right: 0 !important;
+        position: relative;
+        top: 15px;
+    }
+
+    .feedback {
+        display: none;
+    }
+
+    .yith-wcwl-wishlistaddedbrowse a,
+    .yith-wcwl-wishlistexistsbrowse a {
+        font-size: 0;
+        height: 2.813rem;
+        width: 2.813rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #e7eaf3;
+        border-radius: 0.3125rem;
+
+        &:before {
+            content: "\f004";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 1.125rem;
+            color: #de4437;
+        }
+    }
+}
+
+.single-product {
+    .list-group-item > .yith-wcwl-add-to-wishlist {
+        .yith-wcwl-add-button a {
+            font-size: 0;
+            height: 2.813rem;
+            width: 2.813rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #e7eaf3;
+            border-radius: 0.3125rem;
+
+            > i {
+                top: 0;
+                font-family: 'Font Awesome 5 Brands';
+                
+                &.fa {
+                    font-weight: 900;
+                }
+
+                &.far,
+                &.fa {
+                    font-family: 'Font Awesome 5 Free';
+                }
+            }
+
+            @include hover-focus() {
+                &:before {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.loop-wishlist > .yith-wcwl-add-to-wishlist {
+    .yith-wcwl-wishlistaddedbrowse a,
+    .yith-wcwl-wishlistexistsbrowse a {
+        border: none;
+        height: auto !important;
+        width: auto !important;
+    }
+}

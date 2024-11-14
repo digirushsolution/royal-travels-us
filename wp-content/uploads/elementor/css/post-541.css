@@ -1,0 +1,39 @@
+.elementor-541 .elementor-element.elementor-element-6883d64:not(.elementor-motion-effects-element-type-background), .elementor-541 .elementor-element.elementor-element-6883d64 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://royaltravelsus.com/wp-content/uploads/2022/02/imgv2.jpeg");}.elementor-541 .elementor-element.elementor-element-6883d64{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-541 .elementor-element.elementor-element-6883d64 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.dzsparallaxer .dzsparallaxer--target{height:130%;}.elementor-541 .elementor-element.elementor-element-004b753{width:auto;max-width:auto;}.elementor-541 .elementor-element.elementor-element-761678b{width:auto;max-width:auto;}.elementor-541 .elementor-element.elementor-element-4ecf5bf > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-541 .elementor-element.elementor-element-4ecf5bf > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}/* Start custom CSS for myt-search, class: .elementor-element-ff3a824 */@media(min-width: 1200px){
+.home-v2-search .nav-select
+    > div:first-child {
+    flex: 0 0 30.83333%;
+    max-width: 30.83333%;
+    }
+    
+.home-v2-search .nav-select
+    > div:nth-child(2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+    }
+.home-v2-search .nav-select
+   > div:nth-child(3) {
+    flex: 0 0 23.33333%;
+    max-width: 23.33333%;
+    }
+.home-v2-search .nav-select
+   > div:nth-child(4) {  
+    flex: 0 0 15%;
+    max-width: 15%;
+    }
+    .home-v2-search .search_vacancy {
+    align-items: flex-start !important;
+}
+}/* End custom CSS */
+/* Start custom CSS for myt-search, class: .elementor-element-ad19e09 */.elementor-widget-myt-search .u-datepicker span.font-size-21 {
+    font-size: 16px !important;
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-f275dbf */.mytravel-tabs-carousel .tab-pane:not(.active) {
+        display: block!important;
+    height: 0!important;
+    overflow: hidden;
+    padding: 0!important;
+}/* End custom CSS */
+/* Start custom CSS for myt-testimonial-carousel, class: .elementor-element-bc26b70 */.testimonial-v1 svg {
+    width: 56px;
+    height: 48px;
+}/* End custom CSS */

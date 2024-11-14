@@ -1,0 +1,13 @@
+.bwdmp-modal-popup::after {
+    content: 'bwd' !important;
+    position: absolute !important;
+    right: 7px;
+    top: 7px;
+    color: #fffefe;
+    font-family: initial;
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    height: 15px;
+    width: 31px;
+    border-radius: 3px;
+    font-size: 13px;
+  }

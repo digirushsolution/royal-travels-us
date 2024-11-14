@@ -1,0 +1,320 @@
+.woocommerce-checkout {
+	#customer_details {
+		.form-row {
+			display: block;
+			margin: 0;
+		}
+	}
+
+	p.form-row {
+		line-height: 1.5;
+		
+		.form-label {
+			line-height: 1.5;
+		}
+	}
+
+	table {
+		th,td {
+			word-break: normal;
+		}
+		&.woocommerce-checkout-review-order-table {
+			th, td {
+				padding-left: 1.5rem;
+				padding-right: 1.5rem;
+			}
+
+			tr:not(.order-total) {
+				.woocommerce-Price-amount.font-weight-bold {
+					font-weight: 400 !important;
+					color: #77838f;
+				}
+			}
+		}
+	} 
+
+	.mytravel-coupon {
+		.woocommerce-remove-coupon {
+			margin-left: 5px;
+			font-size: 13px;
+		}
+	}
+}
+
+.woocommerce-checkout,
+.woocommerce-account {
+	.form-label {
+	  	display: block;
+	  	text-transform: inherit;
+	  	font-size: 16px;
+	  	font-weight: 400 !important;
+	}
+ }
+
+.wc-payment-form .stripe-source-errors {
+    ul {
+    	padding: 0;
+    	list-style: none;
+		background-color: #fad9d8;
+	    border-color: #f7c5c5;
+	    color: #892624;
+	    margin-top: 20px;
+	    margin-bottom: 0;
+    }
+}
+
+.wc-credit-card-form .row > .form-row-wide,
+.wc-credit-card-form .row > .form-row.form-row-first,
+.wc-credit-card-form .row > .form-row.form-row-last {
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .wc-credit-card-form .row > .form-row-wide {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .wc-credit-card-form .row > .form-row.form-row-first, 
+    .wc-credit-card-form .row > .form-row.form-row-last{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.wc_payment_method.payment_method_stripe,
+.woocommerce-PaymentMethod.payment_method_stripe {
+    .wc-credit-card-form {
+        .wc-stripe-elements-field.StripeElement--empty,
+        .wc-stripe-elements-field.StripeElement--invalid,
+        .wc-stripe-elements-field.StripeElement--focus {
+            float: left;
+            width: 100%;
+            margin: 0 1rem 0;
+        }
+        .row {
+        	.form-row {
+        		display: block;
+        		padding: 0 15px;
+        		margin-bottom: 16px;
+        		margin-left: 0;
+        		margin-right: 0;
+        	}
+
+            > label {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+#payment .payment_methods .payment_box {
+	fieldset {
+		.wc-stripe-elements-field, 
+	 	.wc-stripe-iban-element-field {
+			padding: 1.05rem 1.25rem;
+			border-radius: .25rem;
+
+			&.focused {
+		        box-shadow: 0 0 25px rgba(41, 124, 187, 0.1);
+		  		border-color: rgba(41, 124, 187, 0.5);
+		  		border-width: 2px;
+		        outline: 0;
+		    }
+		}
+
+		.woocommerce-SavedPaymentMethods-saveNew {
+			input[type="checkbox"] {
+				margin-top: 5px;
+				margin-right: 5px;
+			}
+		}
+	}
+
+	ul.wc-saved-payment-methods {
+		 padding: 0;
+    	list-style: none;
+	}
+}
+
+
+.woocommerce-checkout,
+.woocommerce-account {
+	.woocommerce-checkout-payment,
+	.mytravel-checkout-payment {
+		.nav {
+			.form-check-input {
+				opacity: 0;
+			}
+
+			.form-check-label {
+				cursor:pointer;
+			}
+		}
+	}
+}
+
+form.woocommerce-form-register {
+	input[type="password"] {
+		&:focus {
+			box-shadow: none;
+			border-color: #ebf0f7;
+		}
+	}
+		
+	.password-icon {
+		.input-group-text {
+			> span {
+				line-height: 0.8;
+			}
+		}
+		top: 2px;
+		right: 2px;
+	}
+	
+
+	.woocommerce-password-strength {
+		font-size: 14px;
+	}
+
+	.woocommerce-privacy-policy-text {
+		margin-top: 1.25rem;
+
+		p {
+			font-size: 14px;
+		}
+	}
+}
+
+.woocommerce-MyAccount-orders {
+	td.woocommerce-orders-table__cell-order-actions {
+		a.view {
+			display: inline-block;
+		}
+	}
+}
+
+.woocommerce-address-fields__field-wrapper {
+	>.form-row {
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.shop_table.woocommerce-checkout-review-order-table {
+	td.product-name {
+		dl.variation,
+		div.variation {
+			margin-top: 10px;
+
+			.d-xl-inline-flex {
+				display: inline-block !important;
+			}
+		}
+	}
+
+	.variation {
+		.booking-dates {
+			div {
+				flex-wrap: wrap;
+			}
+		}
+	}
+}
+
+.mytravel-coupon {
+	.alert {
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+}
+
+.mytravel-returning-customer {
+	.woocommerce-form-login {
+		margin-top: 1.5rem;
+	    border-top: 1px solid #e7eaf3;
+	    padding-right: 0px !important;
+	    padding-bottom: 0px;
+	    padding-left: 0px !important;
+	    margin-bottom: 0px !important;
+	    padding-top: 1rem;
+	}
+}
+
+.woocommerce-cart,
+.woocommerce-checkout {
+	.container.mb-lg-8 {
+		margin-bottom: 0 !important;
+	}
+}
+
+.woocommerce-checkout {
+	.woocommerce-form-login {
+		.form-row-last  {
+			.input-group {
+				.input-group-prepend {
+					margin-left: -2px;
+				}
+			}
+		}
+
+		.remember-me a {
+			display: inline-block;
+		}
+
+		@media(min-width: 1200px) {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-left: -15px;
+			margin-right: -15px;
+
+			> * {
+				padding: 0 15px;
+			}
+
+			> p {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+
+			.clear {
+				display: none;
+			}
+
+			.form-row-first,
+			.form-row-last {
+				flex: 0 0 40%;
+				max-width: 40%;
+			}
+
+			.login-button {
+				flex: 1;
+
+				.btn {
+					height: 3.365rem;
+				}
+			}
+
+			.form-row-last  {
+				.input-group {
+					.input-group-prepend {
+						margin-left: -2px;
+					}
+				}
+			}
+
+			.remember-me {
+				width: 100%;
+
+				.custom-control-label {
+					display: flex;
+					align-items: center;
+				}
+			}
+		}
+	}
+}

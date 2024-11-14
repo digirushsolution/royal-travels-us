@@ -1,0 +1,162 @@
+@import 'theme';
+@import 'mytravel-wp/wp';
+
+
+
+.editor-post-title {
+    .editor-post-title__input {
+        line-height: 1.5;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #18113c;
+    }
+}
+
+.wp-block-cover p a:not(:hover) {
+    color: #fff;
+}
+
+.wp-block-heading,
+.widgettitle {
+    color: $gray-17 !important;
+    font-size: 1.063rem;
+    margin-bottom: .8rem !important;
+}
+
+.wp-block-calendar table th {
+    background-color: transparent;
+}
+
+.wp-block-gallery .blocks-gallery-item img,
+.blocks-gallery-grid .blocks-gallery-item img {
+    margin: 0 !important;
+}
+
+.blocks-gallery-item figure {
+    position: relative;
+}
+
+.blocks-gallery-grid {
+    padding-left: 0;
+}
+
+.wp-block-button__link {
+    font-weight: 500;
+}
+
+p {
+  line-height: 1.9;
+  margin-bottom: 1rem;
+  color: #67747c;
+}
+
+.wp-block-cover__inner-container p,
+.wp-block-cover-image p:not(.has-text-color),
+.wp-block-cover p:not(.has-text-color) {
+    padding: .44em;
+    font-size: 2em !important;
+    line-height: 1.25;
+}
+
+.wp-block {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.wp-block-cover-image-text,
+.wp-block-cover-image-text a,
+.wp-block-cover-image-text a:active,
+.wp-block-cover-image-text a:focus,
+.wp-block-cover-image-text a:hover,
+.wp-block-cover-text,
+.wp-block-cover-text a,
+.wp-block-cover-text a:active,
+.wp-block-cover-text a:focus,
+.wp-block-cover-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wp-block-pullquote:not(.is-style-solid-color) blockquote:not([class]) {
+    p {
+        margin-bottom: 2rem !important;
+        font-style: normal;
+    }
+}
+
+.wp-block-pullquote blockquote:not([class]) {
+    border: 0;
+
+    p,
+    .wp-block-pullquote__citation {
+        font-style: normal !important;
+    }
+}
+
+.has-background-dim.wp-block-cover p a {
+    color: #fff;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+
+.wp-block-pullquote.is-style-solid-color p,
+.wp-block-pullquote.is-style-solid-color .citation,
+.wp-block-pullquote.is-style-solid-color cite {
+    font-style: normal;
+}
+
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-large footer,
+.wp-block-quote.is-style-large cite,
+.wp-block-quote.is-style-large footer {
+    text-align: left;
+    font-size: 1.125em;
+
+}
+
+.wp-block-quote{
+    &,
+    &.is-style-large {
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.wp-block-audio {
+    margin: 1rem auto;
+}
+
+
+.alignwide {
+    width: 100%;
+    max-width: 100%;
+}
+
+.alignwide,
+.alignfull {
+    margin-left: auto !important;
+    margin-right:auto !important;
+}
+
+.alignfull {
+    width: auto;
+    max-width: 1000%;
+    clear: both;
+
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce code {
+    font-size: 0.875em !important;
+    color: #d63384 !important;
+    background-color: transparent !important;
+}
+
+
+.wp-block-pullquote.is-style-solid-color blockquote .wp-block-pullquote__citation {
+    font-style: italic;
+    font-size: 11.2px !important;
+}
+
+

@@ -1,0 +1,507 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Popup\n"
+"POT-Creation-Date: 2022-11-05 16:29+0600\n"
+"PO-Revision-Date: 2022-11-05 16:28+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: modal-popup.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bwdmp-modal-popup-boots.php:59
+msgid "BWD Modal popup"
+msgstr ""
+
+#: modal-popup.php:72
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: modal-popup.php:73 modal-popup.php:87 modal-popup.php:102
+#: widgets/bwdmp-modal-popup-widget.php:16
+msgid "BWD Modal Popup"
+msgstr ""
+
+#: modal-popup.php:74 modal-popup.php:88
+msgid "Elementor"
+msgstr ""
+
+#: modal-popup.php:77 modal-popup.php:92 modal-popup.php:107
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: modal-popup.php:86 modal-popup.php:101
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: modal-popup.php:103
+msgid "PHP"
+msgstr ""
+
+#: page-settings/bwdmp-modal-popup-manager.php:21
+msgid "New Tab"
+msgstr ""
+
+#: page-settings/bwdmp-modal-popup-manager.php:32
+msgid "Settings"
+msgstr ""
+
+#: page-settings/bwdmp-modal-popup-manager.php:40
+#: page-settings/bwdmp-modal-popup-manager.php:42
+#: widgets/bwdmp-modal-popup-widget.php:267
+msgid "Title"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:12
+msgid "bwdmp_Modal_Popup"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:57
+msgid "Presets"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:65
+msgid "Popup Type"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:69
+msgid "Modal Popup"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:70
+msgid "Corner box"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:78
+#: widgets/bwdmp-modal-popup-widget.php:102
+msgid "Open Direction"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:82
+#: widgets/bwdmp-modal-popup-widget.php:106
+msgid "Top Left"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:83
+msgid "Top Center"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:84
+#: widgets/bwdmp-modal-popup-widget.php:107
+msgid "Top Right"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:85
+#: widgets/bwdmp-modal-popup-widget.php:731
+#: widgets/bwdmp-modal-popup-widget.php:910
+#: widgets/bwdmp-modal-popup-widget.php:1165
+#: widgets/bwdmp-modal-popup-widget.php:1246
+#: widgets/bwdmp-modal-popup-widget.php:1340
+#: widgets/bwdmp-modal-popup-widget.php:1508
+msgid "Left"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:86
+#: widgets/bwdmp-modal-popup-widget.php:739
+#: widgets/bwdmp-modal-popup-widget.php:918
+#: widgets/bwdmp-modal-popup-widget.php:1173
+#: widgets/bwdmp-modal-popup-widget.php:1254
+#: widgets/bwdmp-modal-popup-widget.php:1348
+#: widgets/bwdmp-modal-popup-widget.php:1516
+msgid "Right"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:87
+#: widgets/bwdmp-modal-popup-widget.php:612
+#: widgets/bwdmp-modal-popup-widget.php:735
+#: widgets/bwdmp-modal-popup-widget.php:914
+#: widgets/bwdmp-modal-popup-widget.php:1169
+#: widgets/bwdmp-modal-popup-widget.php:1250
+#: widgets/bwdmp-modal-popup-widget.php:1344
+#: widgets/bwdmp-modal-popup-widget.php:1512
+msgid "Center"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:88
+msgid "Bottom Left"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:89
+msgid "Bottom Center"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:90
+msgid "Bottom Right"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:118
+#: widgets/bwdmp-modal-popup-widget.php:938
+msgid "Height"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:141
+msgid "Width"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:165
+#: widgets/bwdmp-modal-popup-widget.php:178
+msgid "Content"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:173
+msgid "Content Type"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:177
+msgid "Template"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:183
+msgid "Choose Section"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:189
+msgid "Sections"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:204
+msgid "Show Header ?"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:206
+#: widgets/bwdmp-modal-popup-widget.php:239
+#: widgets/bwdmp-modal-popup-widget.php:301
+msgid "Show"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:207
+#: widgets/bwdmp-modal-popup-widget.php:240
+#: widgets/bwdmp-modal-popup-widget.php:302
+msgid "Hide"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:219
+msgid "Header Title"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:221
+msgid "Modal Popup Header"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:237
+msgid "Show Image ?"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:252
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:269
+msgid "Awesome For Modal Box"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:283
+msgid "Description"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:286
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates itaque "
+"praesentium facilis "
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:299
+msgid "Show Button ?"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:315
+#: widgets/bwdmp-modal-popup-widget.php:367
+msgid "Button Text"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:317
+msgid "Read More"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:331
+msgid "Button Link"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:351
+msgid "Popup Shower Button Type"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:355
+msgid "Call To Action"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:356
+msgid "Icon"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:357
+msgid "Hidden"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:369
+msgid "Click Here"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:382
+msgid "Popup Shower Icon Type"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:386
+msgid "Styled Icon"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:387
+msgid "Custom"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:399
+msgid "Choose Icon"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:415
+msgid "Icon Box Size"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:437
+#: widgets/bwdmp-modal-popup-widget.php:638
+#: widgets/bwdmp-modal-popup-widget.php:816
+#: widgets/bwdmp-modal-popup-widget.php:877
+#: widgets/bwdmp-modal-popup-widget.php:994
+#: widgets/bwdmp-modal-popup-widget.php:1425
+#: widgets/bwdmp-modal-popup-widget.php:1573
+msgid "Padding"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:452
+#: widgets/bwdmp-modal-popup-widget.php:678
+#: widgets/bwdmp-modal-popup-widget.php:1023
+#: widgets/bwdmp-modal-popup-widget.php:1441
+#: widgets/bwdmp-modal-popup-widget.php:1588
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:468
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:491
+#: widgets/bwdmp-modal-popup-widget.php:757
+#: widgets/bwdmp-modal-popup-widget.php:1205
+#: widgets/bwdmp-modal-popup-widget.php:1286
+#: widgets/bwdmp-modal-popup-widget.php:1366
+#: widgets/bwdmp-modal-popup-widget.php:1533
+msgid "Color"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:508
+msgid "Display Options"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:516
+msgid "On Page Load"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:518
+#: widgets/bwdmp-modal-popup-widget.php:529
+#: widgets/bwdmp-modal-popup-widget.php:555
+#: widgets/bwdmp-modal-popup-widget.php:566
+msgid "Enable"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:519
+#: widgets/bwdmp-modal-popup-widget.php:530
+#: widgets/bwdmp-modal-popup-widget.php:556
+#: widgets/bwdmp-modal-popup-widget.php:567
+msgid "Disable"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:527
+msgid "On Scroll"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:538
+msgid "Scroll Offset (px)"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:553
+msgid "On Exit Inlet"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:564
+msgid "After Inactivity"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:575
+msgid "Inactivity Timeout (ms)"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:593
+msgid "Popup Box"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:604
+msgid "Justify Content"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:608
+msgid "Start"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:616
+msgid "Space-Between"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:620
+msgid "End"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:654
+#: widgets/bwdmp-modal-popup-widget.php:786
+#: widgets/bwdmp-modal-popup-widget.php:865
+#: widgets/bwdmp-modal-popup-widget.php:1066
+msgid "Background"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:667
+#: widgets/bwdmp-modal-popup-widget.php:773
+#: widgets/bwdmp-modal-popup-widget.php:1011
+#: widgets/bwdmp-modal-popup-widget.php:1397
+#: widgets/bwdmp-modal-popup-widget.php:1562
+msgid "Border"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:694
+#: widgets/bwdmp-modal-popup-widget.php:1040
+#: widgets/bwdmp-modal-popup-widget.php:1458
+#: widgets/bwdmp-modal-popup-widget.php:1604
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:703
+msgid "Popup Header"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:727
+#: widgets/bwdmp-modal-popup-widget.php:906
+#: widgets/bwdmp-modal-popup-widget.php:1161
+#: widgets/bwdmp-modal-popup-widget.php:1242
+#: widgets/bwdmp-modal-popup-widget.php:1336
+#: widgets/bwdmp-modal-popup-widget.php:1504
+msgid "Alignment"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:800
+#: widgets/bwdmp-modal-popup-widget.php:1190
+#: widgets/bwdmp-modal-popup-widget.php:1271
+#: widgets/bwdmp-modal-popup-widget.php:1409
+msgid "Margin"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:833
+msgid "Popup Body"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:845
+msgid "Content Direction"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:848
+msgid "Column"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:849
+msgid "Row"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:894
+msgid "Popup Image"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:966
+msgid "Image Box Width"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1053
+msgid "Popup Content Box"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1078
+msgid "Content Box Width"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1106
+msgid "Content Box Padding"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1122
+msgid "Content Box Margin"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1139
+msgid "Popup Title"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1220
+msgid "Popup Description"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1301
+msgid "Popup Content Button"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1313
+#: widgets/bwdmp-modal-popup-widget.php:1482
+msgid "Font Size"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1381
+#: widgets/bwdmp-modal-popup-widget.php:1547
+msgid "Background Color"
+msgstr ""
+
+#: widgets/bwdmp-modal-popup-widget.php:1471
+msgid "Popup Shower Button"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Popup"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://bestwpdeveloper.com/modal-popup"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Popup is an Elementor plugin that has a preset dialog box.Custom content "
+"will show which has been created by Elementor template. It has also "
+"available on page load, on scroll, on exit intent, and on inactivity options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Best WP Developer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wppluginzone.com/"
+msgstr ""

@@ -1,0 +1,35 @@
+.comment-form.row > * {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+
+.comment .comment-respond {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid #ebf0f7;
+    padding: 2rem;
+    border-radius: 0.188rem;
+
+}
+
+.comment-footer {
+    li + li {
+        a:before {
+            content: "|";
+            margin: 0 0.25rem;
+            display: inline-block;
+            color: #cbd2d8;
+        }
+    }
+}
+
+.comment-list + .comment-respond {
+    border-top: 2px solid #ebf0f7;
+    padding-top: 1.5rem;
+}
+
+.comment-list .comment .media-body {
+    overflow: hidden;
+}

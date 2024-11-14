@@ -1,0 +1,43 @@
+.wc-layered-nav-rating {
+    .star-rating {
+        i {
+            letter-spacing: 5px;
+        }
+    }
+}
+
+.js-modal-window-top {
+    .sort-bar {
+        margin-bottom: 0 !important;
+
+        ul.nav {
+            border: 0 !important;
+
+            a {
+                color: #3b444f !important;
+                font-size: 1rem;
+                font-weight: 500 !important;
+            }
+
+            li:last-child {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}
+
+.js-scrollbar {
+    ul {
+        li.col-12 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            padding: 0 !important;
+        }
+    }
+}
+
+.admin-bar {
+    .js-modal-window:not(.u-modal-window-custom) {
+        margin-top: 59px;
+    }
+}

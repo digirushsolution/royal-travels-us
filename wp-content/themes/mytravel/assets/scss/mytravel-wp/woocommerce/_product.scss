@@ -1,0 +1,208 @@
+div.products.row {
+	> * {
+	    position: relative;
+	    width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    flex: 0 0 100%;
+    	max-width: 100%;
+
+		@media(min-width: 768px) {
+			flex: 0 0 50%;
+    		max-width: 50%;
+		}
+	}
+
+	&.row-cols-xl-5 > *,
+	&.row-cols-xl-6 > * {
+		@media(min-width: 1200px) {
+			flex: 0 0 50%;
+    		max-width: 50%;
+		}
+	}
+
+	&.row-cols-xl-3 > * {
+		@media(min-width: 1200px) {
+			flex: 0 0 33.3333333333%;
+    		max-width: 33.3333333333%;
+		}
+	}
+
+	&.row-cols-xl-4 > * {
+		@media(min-width: 1200px) {
+			flex: 0 0 25%;
+    		max-width: 25%;
+		}
+	}
+
+	&.row-cols-xl-2 > * {
+		@media(min-width: 1200px) {
+			flex: 0 0 16.6666666667%;
+    		max-width: 16.6666666667%;
+		}
+	}
+
+	&.row-cols-xl-1 > * {
+		@media(min-width: 1200px) {
+			flex: 0 0 100%;
+    		max-width: 100%;
+		}
+	}
+}
+
+.admin-bar {
+	#sidebarContent {
+		margin-top: 32px;
+
+		.sidenav {
+			.widget-title {
+				text-align: center;
+			}
+		}
+	}
+}
+
+.elementor-widget-myt-product-carousel {
+	.js-slide {
+		> .product {
+			width: 100%;
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+.mytravel-map-view-popup {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.bg-img-hero {
+	margin: 0 auto;
+	display: block;
+}
+
+.tour-grid-view .yith-wcwl-add-to-wishlist {
+	margin-top: -3px;
+}
+
+.page-title {
+	text-transform: capitalize;
+}
+
+#single-hotel__rooms .single_add_to_cart_button {
+    min-width: 12.5rem;
+    line-height: 1.9;
+    border-radius: 3px;
+    border-width: 2px;
+    height: auto;
+    padding: 0.5rem;
+    transform: none;
+    box-shadow: none;
+}
+
+#single-hotel__rooms .single_add_to_cart_button:not(:hover) {
+	background: transparent;
+    color: var(--bs-primary);
+}
+
+.gradient-overlay-half-bg-gradient-v5::before {
+	background: linear-gradient(transparent,rgba(0,0,0,0.8));
+}
+
+.map-hotel-list-view {
+	.product-item__header {
+		img {
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.search_vacancy .bootstrap-select .dropdown-menu.show {
+	min-width: 100% !important;
+}
+
+.product .card .card-header .price .wceb-price-format {
+	color: #fff;
+}
+
+.map-popup:not(.show) {
+	opacity: 0;
+	visibility:hidden;
+	position:relative;
+}
+
+.map-popup.show {
+	position: fixed;
+	z-index: 999999;
+	margin-top: 118px;
+	height: 100vh;
+}
+
+@media(min-width: 1200px) {
+	.map-popup.show {
+		margin-top: 67px;
+	}
+}
+
+
+.map-popup.show {
+	@media(max-width: 992px) {
+		margin-top: 100px;
+	}
+
+	@media(min-width: 992px) {
+		margin-left: 41.6666666667%;
+	}
+}
+
+@media(min-width: 1200px){
+	.map-popup.show {
+		margin-left:33.3333333333%;
+	}
+}
+
+@media(min-width: 1480px) {
+	.map-popup.show {
+		margin-left: 28.98%;
+	}
+}
+
+.admin-bar .map-popup.show {
+	margin-top: 131px;
+
+	@media(min-width: 992px) {
+		margin-top: 148px;
+	}
+}
+
+@media(min-width: 1200px){
+	.admin-bar .map-popup.show {
+		margin-top: 100px;
+	}
+}
+
+@media(min-width: 1480px) {
+	.admin-bar .map-popup.show {
+		margin-top: 99px;
+	}
+}
+
+.archive.woocommerce-page .custombox-open {
+	overflow:hidden;
+}
+
+.shop-sidebar .widget.widget_rating_filter ul li.wc-layered-nav-rating.chosen a:before,
+.sidenav .product-filters .widget.widget_rating_filter ul li.wc-layered-nav-rating.chosen a:before {
+	color: #fff;
+    border-color: #297cbb;
+    background-color: #297cbb;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.shop-sidebar .widget.widget_rating_filter ul li.wc-layered-nav-rating.chosen a:after, .sidenav .product-filters .widget.widget_rating_filter ul li.wc-layered-nav-rating.chosen a:after {
+	 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e"); 
+
+}	

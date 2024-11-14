@@ -1,0 +1,4093 @@
+[
+    {
+        "key": "group_61b9f95f21dca",
+        "title": "Activity Details",
+        "fields": [
+            {
+                "key": "field_61bb92894c366",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61bc1aea0e8e5",
+                "label": "Layout",
+                "name": "activity_layout",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "v1": "v1",
+                    "v2": "v2"
+                },
+                "default_value": "v1",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_61c40ac4575af",
+                "label": "Video",
+                "name": "video",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_61bb95045f6cf",
+                "label": "Activity Snapshot",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61bb91ed1e568",
+                "label": "Snapshot",
+                "name": "snapshot",
+                "type": "taxonomy",
+                "instructions": "Select the available snapshot available.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_activity-snapshot",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61bacf150aed9",
+                "label": "Experience",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61baf5cf068f2",
+                "label": "Highlights",
+                "name": "highlights",
+                "type": "textarea",
+                "instructions": "Enter each highlights in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_61baf5dc068f3",
+                "label": "Includes",
+                "name": "includes",
+                "type": "textarea",
+                "instructions": "Enter each includes in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_61bb382c75eba",
+                "label": "Not Allowed",
+                "name": "not_include",
+                "type": "textarea",
+                "instructions": "Enter each not include list in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_61b9f9af2424c",
+                "label": "Location",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61b9f9d6f8721",
+                "label": "Display Location",
+                "name": "display_location",
+                "type": "text",
+                "instructions": "Location information that you want to display in the Hotels list and Single page. Please note that this is for display purpose only and is not used in filters. Use Attributes for filtering purposes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b9fa0ace014",
+                "label": "Location Map",
+                "name": "location_map",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            },
+            {
+                "key": "field_61c5f9d385486",
+                "label": "Location Tags",
+                "name": "location_tags",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_location-tags",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61bb315ed456f",
+                "label": "FAQ",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_62fb84afbf015",
+                "label": "FAQ",
+                "name": "faq_activity",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_62fb84c6bf017",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "I'm a solo mytravel, is there a single supplement?",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62fb84e9bf018",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-activity"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_61e2880472bf5",
+        "title": "Car Rental Details",
+        "fields": [
+            {
+                "key": "field_61e28804754a9",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61e28804754b3",
+                "label": "Layout",
+                "name": "rental_layout",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "v1": "v1",
+                    "v2": "v2"
+                },
+                "default_value": "v1",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_61e28804754bc",
+                "label": "Distance",
+                "name": "distance",
+                "type": "text",
+                "instructions": "Enter the distance",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61e28804754c5",
+                "label": "Cardinal Points",
+                "name": "cardinal_points",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61e28804754ce",
+                "label": "Fuel Consumption",
+                "name": "fuel",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61e28804754d6",
+                "label": "Event Calendar",
+                "name": "event_calendar",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61e288047552e",
+                "label": "Video",
+                "name": "video",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_61e28804754df",
+                "label": "Location",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61e28804754e8",
+                "label": "Location",
+                "name": "display_location",
+                "type": "text",
+                "instructions": "Location information that you want to display in the Rental list and Single page. Please note that this is for display purpose only and is not used in filters. Use Attributes for filtering purposes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61e28804754f1",
+                "label": "Location Map",
+                "name": "location_map",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            },
+            {
+                "key": "field_61c5fac427588",
+                "label": "Location Tags",
+                "name": "location_tags",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_location-tags",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_620b5c6d3bf57",
+                "label": "Specification",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_620b5c843bf58",
+                "label": "Specification",
+                "name": "specification",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_620b5c9f3bf59",
+                        "label": "Make",
+                        "name": "make",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Audi",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5cb23bf5a",
+                        "label": "Model",
+                        "name": "engine_model",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Class C",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5cbe3bf5b",
+                        "label": "Made Year",
+                        "name": "year",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 2022,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5cd53bf5c",
+                        "label": "Mileage",
+                        "name": "mileage",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "104,556",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5cdc3bf5d",
+                        "label": "VIN",
+                        "name": "vin",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "1VXETUROTERC",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5ce53bf5e",
+                        "label": "Version",
+                        "name": "version",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "1.6 hdi",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5cf13bf5f",
+                        "label": "Horsepower (hp)",
+                        "name": "horsepower",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 200,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5cfe3bf60",
+                        "label": "Transmission",
+                        "name": "transmission",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Manual",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5d063bf61",
+                        "label": "Condition",
+                        "name": "condition",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "New",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5d0d3bf62",
+                        "label": "Drive",
+                        "name": "drive",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Rear",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_620b5d163bf63",
+                        "label": "Warranty",
+                        "name": "warranty",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Yes",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-car_rental"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_60c76804455f1",
+        "title": "Color Fields",
+        "fields": [
+            {
+                "key": "field_60c7680e6ea11",
+                "label": "Background Color",
+                "name": "background_color",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "sub_fields": [
+                    {
+                        "key": "field_60c768866ea12",
+                        "label": "Pre defined",
+                        "name": "bg_pre_defined",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_60c768a56ea13",
+                        "label": "Background Color",
+                        "name": "background_color_select",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_60c768866ea12",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "no-color": "None",
+                            "primary": "Primary",
+                            "secondary": "Secondary",
+                            "success": "Success",
+                            "info": "Info",
+                            "warning": "Warning",
+                            "danger": "Danger",
+                            "brown": "Brown",
+                            "brown-light": "Brown light",
+                            "blue": "Blue",
+                            "blue-1": "Blue v1",
+                            "blue-dark-1": "Blue Dark",
+                            "dark-1": "Dark v1",
+                            "dark-2": "Dark v2",
+                            "gray": "Gray",
+                            "gray-1": "Gray v1",
+                            "gray-2": "Gray v2",
+                            "gray-3": "Gray v3",
+                            "gray-4": "Gray v4",
+                            "gray-5": "Gray v5",
+                            "gray-6": "Gray v6",
+                            "gray-7": "Gray v7",
+                            "gray-8": "Gray v8",
+                            "gray-9": "Gray v9",
+                            "gray-10": "Gray v10",
+                            "gray-11": "Gray v11",
+                            "gray-23": "Gray v23",
+                            "gray-33": "Gray v33",
+                            "green": "Green",
+                            "indigo": "Indigo",
+                            "indigo-light": "Indigo Light",
+                            "maroon": "Maroon",
+                            "navy": "Navy Blue",
+                            "orange": "Orange",
+                            "pink": "Pink",
+                            "pink-1": "Pink v1",
+                            "purple-1": "Purple v1",
+                            "red-light-2": "Red Light",
+                            "sea-green": "Sea green",
+                            "violet": "Violet",
+                            "violet-1": "Violet v1",
+                            "violet-light": "Violet light",
+                            "white": "White",
+                            "yellow-lighter-2": "Yellow Light v2"
+                        },
+                        "default_value": "maroon",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_60c76b186ea14",
+                        "label": "Background Color",
+                        "name": "background_color_picker",
+                        "type": "color_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_60c768866ea12",
+                                    "operator": "!=",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "enable_opacity": false,
+                        "return_format": "string"
+                    }
+                ]
+            },
+            {
+                "key": "field_60c76b3b542fd",
+                "label": "Text Color",
+                "name": "text_color",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "sub_fields": [
+                    {
+                        "key": "field_60c76b3b542fe",
+                        "label": "Pre defined",
+                        "name": "color_pre_defined",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_60c76b3b542ff",
+                        "label": "Text Color",
+                        "name": "text_color_select",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_60c76b3b542fe",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "no-color": "None",
+                            "primary": "Primary",
+                            "secondary": "Secondary",
+                            "success": "Success",
+                            "info": "Info",
+                            "warning": "Warning",
+                            "danger": "Danger",
+                            "brown": "Brown",
+                            "brown-light": "Brown light",
+                            "blue": "Blue",
+                            "blue-1": "Blue v1",
+                            "blue-dark-1": "Blue Dark",
+                            "dark-1": "Dark v1",
+                            "dark-2": "Dark v2",
+                            "gray": "Gray",
+                            "gray-1": "Gray v1",
+                            "gray-2": "Gray v2",
+                            "gray-3": "Gray v3",
+                            "gray-4": "Gray v4",
+                            "gray-5": "Gray v5",
+                            "gray-6": "Gray v6",
+                            "gray-7": "Gray v7",
+                            "gray-8": "Gray v8",
+                            "gray-9": "Gray v9",
+                            "gray-10": "Gray v10",
+                            "gray-11": "Gray v11",
+                            "gray-23": "Gray v23",
+                            "gray-33": "Gray v33",
+                            "green": "Green",
+                            "indigo": "Indigo",
+                            "indigo-light": "Indigo Light",
+                            "maroon": "Maroon",
+                            "navy": "Navy Blue",
+                            "orange": "Orange",
+                            "pink": "Pink",
+                            "pink-1": "Pink v1",
+                            "purple-1": "Purple v1",
+                            "red-light-2": "Red Light",
+                            "sea-green": "Sea green",
+                            "violet": "Violet",
+                            "violet-1": "Violet v1",
+                            "violet-light": "Violet light",
+                            "white": "White",
+                            "yellow-lighter-2": "Yellow Light v2"
+                        },
+                        "default_value": "white",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_60c76b3b54300",
+                        "label": "Text Color",
+                        "name": "text_color_picker",
+                        "type": "color_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_60c76b3b542fe",
+                                    "operator": "!=",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "enable_opacity": false,
+                        "return_format": "string"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "product_tag"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_60b79c2cdebf7",
+        "title": "Hotel Details",
+        "fields": [
+            {
+                "key": "field_60b9d6d273485",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60bd822573525",
+                "label": "Layout",
+                "name": "layout",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "v1": "v1",
+                    "v2": "v2",
+                    "v3": "v3"
+                },
+                "default_value": "v1",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_60c76ec887b7f",
+                "label": "Badges",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60c76ee987b80",
+                "label": "List View Top",
+                "name": "list_view_top_badge",
+                "type": "taxonomy",
+                "instructions": "Displayed above title in list view",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "product_tag",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0
+            },
+            {
+                "key": "field_60c7828dc2fb6",
+                "label": "List View Below Title",
+                "name": "list_view_badges",
+                "type": "taxonomy",
+                "instructions": "Displayed below title in list view",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "product_tag",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_60c76f2145edc",
+                "label": "Sidebar\/List View Bottom",
+                "name": "sidebar_badge",
+                "type": "group",
+                "instructions": "This badge is displayed in Single Hotel Sidebar as well as in List View Bottom",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60c76f3145edd",
+                        "label": "Field",
+                        "name": "sidebar_badge_field",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60c76f4245ede",
+                        "label": "Value",
+                        "name": "sidebar_badge_value",
+                        "type": "taxonomy",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "taxonomy": "product_tag",
+                        "field_type": "select",
+                        "allow_null": 0,
+                        "add_term": 1,
+                        "save_terms": 0,
+                        "load_terms": 0,
+                        "return_format": "object",
+                        "multiple": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_60c789cb11615",
+                "label": "Single Hotel Page Above Title",
+                "name": "single_hotel_above_title_badges",
+                "type": "taxonomy",
+                "instructions": "Badges displayed above title in single hotel page",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "product_tag",
+                "field_type": "multi_select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0
+            },
+            {
+                "key": "field_60b9b83e5d53c",
+                "label": "Location",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60ba4d99535bf",
+                "label": "Location Rating",
+                "name": "location_rating",
+                "type": "range",
+                "instructions": "Set location rating should reflect how far the property is from popular landmarks, city center and essentials like public transport, airports, convenience store, etc.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "3.7",
+                "min": 1,
+                "max": 5,
+                "step": "0.1",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_60bdab2eac0f3",
+                "label": "Location Tags",
+                "name": "location_tags",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_location-tags",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_60b9b8acf5138",
+                "label": "Display Location",
+                "name": "display_location",
+                "type": "text",
+                "instructions": "Location information that you want to display in the Hotels list and Single page. Please note that this is for display purpose only and is not used in filters. Use Attributes for filtering purposes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_60ba4c49e4792",
+                "label": "Location Map",
+                "name": "location_map",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            },
+            {
+                "key": "field_60bcddc3c6a1e",
+                "label": "Nearest Essentials",
+                "name": "nearest_essentials",
+                "type": "group",
+                "instructions": "Enter each essential in a separate line. Separate the essential name & distance by a |",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60bcde10c6a1f",
+                        "label": "Airports",
+                        "name": "nearest_airports",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "London City Airport (LCY)|1.2 km|6 minutes",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bcdebec6a20",
+                        "label": "Public transportation",
+                        "name": "nearest_public_transportation",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "DLR - Prince Regent Metro Station|250 m|7 mins",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a21",
+                        "label": "Hospital or clinic",
+                        "name": "nearest_hospital_or_clinic",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "West Beckton Health Centre|1 km",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a22",
+                        "label": "Horsepower (hp)",
+                        "name": "nearest_horsepower",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": 200,
+                        "maxlength": "",
+                        "new_lines": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a23",
+                        "label": "Transmission",
+                        "name": "nearest_transmission",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "Manual",
+                        "maxlength": "",
+                        "new_lines": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a24",
+                        "label": "Condition",
+                        "name": "nearest_condition",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "New",
+                        "maxlength": "",
+                        "new_lines": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a25",
+                        "label": "Drive",
+                        "name": "nearest_drive",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "Rear",
+                        "maxlength": "",
+                        "new_lines": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a26",
+                        "label": "Warranty",
+                        "name": "nearest_warranty",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "Yes",
+                        "maxlength": "",
+                        "new_lines": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a27",
+                        "label": "Hospital or clinic",
+                        "name": "nearest_hospital_or_clinic_1",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "West Beckton Health Centre|1 km",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a28",
+                        "label": "Airports",
+                        "name": "nearest_airports_1",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "London City Airport (LCY)|1.2 km|6 minutes",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a29",
+                        "label": "Public transportation",
+                        "name": "nearest_public_transportation_1",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "DLR - Prince Regent Metro Station|250 m|7 mins",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce063c6a30",
+                        "label": "Shopping",
+                        "name": "nearest_shopping",
+                        "type": "textarea",
+                        "instructions": "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using | character.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "Harrods|1.5 km",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_60bce1aae9355",
+                "label": "Landmarks",
+                "name": "landmarks",
+                "type": "group",
+                "instructions": "Enter each landmark in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60bce1b5e9356",
+                        "label": "Popular Landmarks",
+                        "name": "popular_landmarks",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 5,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce1cae9357",
+                        "label": "Nearby Landmarks",
+                        "name": "nearby_landmarks",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 5,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce1b5e9358",
+                        "label": "Popular Landmarks",
+                        "name": "popular_landmarks_1",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 5,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60bce1cae9359",
+                        "label": "Nearby Landmarks",
+                        "name": "nearby_landmarks_1",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 5,
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_60ba7e364cab6",
+                "label": "Amenities",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60ba7e434cab7",
+                "label": "Amenities",
+                "name": "amenities",
+                "type": "taxonomy",
+                "instructions": "Select the amenities available at the property.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_property-facilities",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_60bd7f742a75c",
+                "label": "Guest Policy",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60bd816ce0e90",
+                "label": "Check-in\/Check-out",
+                "name": "checkinout",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60bd818ae0e91",
+                        "label": "Check-in from",
+                        "name": "check_in_from",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "append": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd81aee0e92",
+                        "label": "Check-out until",
+                        "name": "check_out_until",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd81bfe0e93",
+                        "label": "Reception open until",
+                        "name": "reception_open_until",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_60bd7f802a75d",
+                "label": "Children Policy",
+                "name": "children_policy",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_60bd808a2a75f",
+                "label": "Extra Beds",
+                "name": "extra_beds",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_60bd83f9bfbfa",
+                "label": "Others",
+                "name": "others",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_60bd828c1307f",
+                "label": "Facts",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60bd82a113080",
+                "label": "Getting around",
+                "name": "getting_around",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60bd82bb13081",
+                        "label": "Distance from city center",
+                        "name": "distance_from_city_center",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd82cb13082",
+                        "label": "Travel time to airport",
+                        "name": "travel_time_to_airport",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_60bd82ec13084",
+                "label": "The Property",
+                "name": "the_property",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60bd830613085",
+                        "label": "Non-smoking rooms\/floors",
+                        "name": "non_smoking_rooms_floors",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd831913086",
+                        "label": "Number of floors",
+                        "name": "number_of_floors",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd832613087",
+                        "label": "Number of restaurants",
+                        "name": "number_of_restaurants",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd833513088",
+                        "label": "Number of rooms",
+                        "name": "number_of_rooms",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd834213089",
+                        "label": "Room voltage",
+                        "name": "room_voltage",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60bd83571308a",
+                        "label": "Most recent renovation",
+                        "name": "most_recent_renovation",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_60bd836f1308b",
+                "label": "Extras",
+                "name": "extras",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60bd83781308c",
+                        "label": "Breakfast charge",
+                        "name": "breakfast_charge",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_61b1a5d196341",
+                "label": "Gold Star Rating",
+                "name": "gold_star_rating",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 3,
+                "min": 1,
+                "max": 5,
+                "step": "0.5",
+                "prepend": "",
+                "append": "star"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-hotel"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_60b79d84bbd2e",
+        "title": "Icon",
+        "fields": [
+            {
+                "key": "field_60b79d9eb1916",
+                "label": "Icon Class",
+                "name": "icon_class",
+                "type": "text",
+                "instructions": "Enter the icon class for the amenity. For example: flaticon-alarm",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "pa_room-amenities"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "pa_tour-amenities"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_620c825926377",
+        "title": "Post Single",
+        "fields": [
+            {
+                "key": "field_620c8267fa0d2",
+                "label": "Cover Image",
+                "name": "cover_url",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_6204ee8e0fabe",
+        "title": "Product Layout",
+        "fields": [
+            {
+                "key": "field_6221b5f0476ec",
+                "label": "Sidebar",
+                "name": "sidebar",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "left-sidebar": "left-sidebar",
+                    "right-sidebar": "right-sidebar",
+                    "no-sidebar": "no-sidebar"
+                },
+                "default_value": "left-sidebar",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_622243cebc8c1",
+                "label": "Products per row",
+                "name": "products_per_row",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "1",
+                    "2": "2",
+                    "3": "3",
+                    "4": "4",
+                    "5": "5",
+                    "6": "6"
+                },
+                "default_value": 3,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "product_cat"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_61c459f30e600",
+        "title": "Rental Details",
+        "fields": [
+            {
+                "key": "field_61c459fca562c",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c45a09cc0ff",
+                "label": "Layout",
+                "name": "rental_layout",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "v1": "v1",
+                    "v2": "v2"
+                },
+                "default_value": "v1",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_61c46c9ea616d",
+                "label": "Area Size",
+                "name": "area",
+                "type": "text",
+                "instructions": "Enter the area size",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c46cc686ce2",
+                "label": "Number of Bed",
+                "name": "total_beds",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c46cd386ce3",
+                "label": "Number of Bathroom",
+                "name": "total_bathrooms",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c46ce486ce4",
+                "label": "Number of Rooms",
+                "name": "total_rooms",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_60ba7e364cab6",
+                "label": "Amenities",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60ba7e434cab7",
+                "label": "Amenities",
+                "name": "amenities",
+                "type": "taxonomy",
+                "instructions": "Select the amenities available at the property.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_property-facilities",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61c45fc612893",
+                "label": "Location",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c45fd5f53b5",
+                "label": "Location",
+                "name": "display_location",
+                "type": "text",
+                "instructions": "Location information that you want to display in the Rental list and Single page. Please note that this is for display purpose only and is not used in filters. Use Attributes for filtering purposes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c4616e2d38f",
+                "label": "Location Map",
+                "name": "location_map",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            },
+            {
+                "key": "field_61c5f9d385486",
+                "label": "Location Tags",
+                "name": "location_tags",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_location-tags",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61c48d3a218aa",
+                "label": "Video",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c7e5ac3a8e1",
+                "label": "Image",
+                "name": "video_image",
+                "type": "image",
+                "instructions": "Applicable only for style v2",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_61c48d47218ab",
+                "label": "Video",
+                "name": "video",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_61c471ffa0a4c",
+                "label": "Details",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c47ce91b70b",
+                "label": "Price List",
+                "name": "price_list",
+                "type": "textarea",
+                "instructions": "Enter each price list in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_61c47d061b70c",
+                "label": "Terms & rules",
+                "name": "terms_&_rules",
+                "type": "textarea",
+                "instructions": "Enter each terms & rules in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_61c47d3d1b70d",
+                "label": "Not Allowed",
+                "name": "not_allowed",
+                "type": "textarea",
+                "instructions": "Enter each don'ts in a separate line.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-rental"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_60bdd503376e4",
+        "title": "Room Details",
+        "fields": [
+            {
+                "key": "field_625d06e8803b3",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_625d08f36451c",
+                "label": "Hotel Name",
+                "name": "hotel_name",
+                "type": "post_object",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "product"
+                ],
+                "taxonomy": [
+                    "product_format:product-format-hotel"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "return_format": "object",
+                "ui": 1
+            },
+            {
+                "key": "field_60bdd52e74314",
+                "label": "Room size",
+                "name": "area",
+                "type": "text",
+                "instructions": "Enter the room size",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_60c0ef8e206d4",
+                "label": "Max. Adults",
+                "name": "max_adults",
+                "type": "number",
+                "instructions": "Enter the maximum number of adults allowed in this room",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 1,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_60c0efec206d5",
+                "label": "Max. Children",
+                "name": "max_children",
+                "type": "number",
+                "instructions": "Enter the maximum number of children allowed in this room. Enter 0 if children are not allowed",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_60bdd794fad80",
+                "label": "Beds",
+                "name": "total_beds",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_60bdd5f374316",
+                "label": "Primary Room Amenities",
+                "name": "primary_room_amenities",
+                "type": "taxonomy",
+                "instructions": "Check the amenities you want to show in the preview. Choose only 2",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_room-amenities",
+                "field_type": "checkbox",
+                "add_term": 0,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_60bdd5a474315",
+                "label": "Room Amenities",
+                "name": "room_amenities",
+                "type": "taxonomy",
+                "instructions": "Complete list of amenities available in the room",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_room-amenities",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61b981d0d82a0",
+                "label": "Max.Infant",
+                "name": "max_infant",
+                "type": "number",
+                "instructions": "Enter the maximum number of infant allowed in this room. Enter 0 if infant are not allowed",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 1,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_61d578a4e5d67",
+                "label": "Badges",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60c31d6d9e561",
+                "label": "Badge",
+                "name": "badge",
+                "type": "text",
+                "instructions": "Enter this room's badge. Separate the text and color by |",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Badge Text|color",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61d578aae5d68",
+                "label": "Single Room Page Above Title",
+                "name": "single_room_above_title_badges",
+                "type": "taxonomy",
+                "instructions": "Badges displayed above title in single room page",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "product_tag",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-room"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_61ae212670d64",
+        "title": "Tour Details",
+        "fields": [
+            {
+                "key": "field_61ae222886070",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61b73e4c6f8a4",
+                "label": "Layout",
+                "name": "tour_layout",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "v1": "v1",
+                    "v2": "v2"
+                },
+                "default_value": "v1",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_623972615849e",
+                "label": "Product Main Category",
+                "name": "main_category",
+                "type": "taxonomy",
+                "instructions": "Choose a Taxonomy that you want to be the main category. It will be displayed in the meta fields which otherwise displays all categories.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "product_cat",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0
+            },
+            {
+                "key": "field_61ae21d983cb6",
+                "label": "Time Duration",
+                "name": "time_duration",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "3 hours 45 minutes",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b885beb4114",
+                "label": "Days",
+                "name": "days",
+                "type": "text",
+                "instructions": "Enter the number of tour days",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "5 Days",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b8853654749",
+                "label": "Max.People",
+                "name": "max_people",
+                "type": "text",
+                "instructions": "Enter the maximum number of people in this tour",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Max People : 26",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b88639d2359",
+                "label": "Tour Period",
+                "name": "tour_period",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Jan 18’ - Dec 21",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b88601a97fd",
+                "label": "Min.Age",
+                "name": "min_age",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Min Age : 10+",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c5ce1c0367c",
+                "label": "Video",
+                "name": "video",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_60c0ef8e206d4",
+                "label": "Max. Adults",
+                "name": "max_adults",
+                "type": "number",
+                "instructions": "Enter the maximum number of adults allowed in this room",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 1,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_60c0efec206d5",
+                "label": "Max. Children",
+                "name": "max_children",
+                "type": "number",
+                "instructions": "Enter the maximum number of children allowed in this room. Enter 0 if children are not allowed",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_60c0efec206d6",
+                "label": "Max. Infant",
+                "name": "max_infant",
+                "type": "number",
+                "instructions": "Enter the maximum number of infant allowed in this room. Enter 0 if children are not allowed",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_61ae222886071",
+                "label": "Tour Snapshot",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61ae222886072",
+                "label": "Snapshot",
+                "name": "snapshot",
+                "type": "taxonomy",
+                "instructions": "Select the available snapshots.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_tour-snapshot",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61b83116eaa2e",
+                "label": "Location",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61b8313deaa2f",
+                "label": "Display Location",
+                "name": "display_location",
+                "type": "text",
+                "instructions": "Location information that you want to display in the Hotels list and Single page. Please note that this is for display purpose only and is not used in filters. Use Attributes for filtering purposes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b83158eaa30",
+                "label": "Location Map",
+                "name": "location_map",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            },
+            {
+                "key": "field_61b99bce4c3d2",
+                "label": "Itinerary",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_62fb8048bd81a",
+                "label": "Itinerary",
+                "name": "itinerary_places",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_62fb805abd81b",
+                        "label": "Label",
+                        "name": "label",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Day 1",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62fb8097bd81c",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Barcelona – Zaragoza – Madrid",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62fb809dbd81d",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "We’ll meet at 4 p.m. at our hotel in Luzern (Lucerne) for a “Welcome to Switzerland” meeting. Then we’ll take a meandering evening walk through Switzerland’s most charming lakeside town, and get acquainted with one another over dinner together. Sleep in Luzern (2 nights). No bus. Walking: light.",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_61c5c897112b1",
+                "label": "FAQ",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_62fb80f84ca14",
+                "label": "FAQ",
+                "name": "faq_tour",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_62fb81094ca15",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "I'm a solo mytravel, is there a single supplement?",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62fb81114ca16",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_61c5fac427588",
+                "label": "Location Tags",
+                "name": "location_tags",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_location-tags",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-tour"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_61b1fda356c2e",
+        "title": "Yacht Details",
+        "fields": [
+            {
+                "key": "field_61c55a7931aac",
+                "label": "General",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c55a8731aad",
+                "label": "Layout",
+                "name": "layout",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "v1": "v1",
+                    "v2": "v2"
+                },
+                "default_value": "v1",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_61b208bd13cbb",
+                "label": "Area Size",
+                "name": "area",
+                "type": "text",
+                "instructions": "Enter the room size",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b2090c1bb00",
+                "label": "Speed",
+                "name": "speed",
+                "type": "text",
+                "instructions": "Enter the speed",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b209ab5c1ae",
+                "label": "Number of Passengers",
+                "name": "number_of_passengers",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61b209c35c1af",
+                "label": "Bed",
+                "name": "bed",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c582d987654",
+                "label": "Video",
+                "name": "video",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_61c564971ea61",
+                "label": "Specification",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c564a71ea62",
+                "label": "Specification",
+                "name": "specification",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_61c564bc1ea63",
+                        "label": "Make",
+                        "name": "make",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Fishing",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c565481ea64",
+                        "label": "Engine Model",
+                        "name": "engine_model",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "C32A",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c565551ea65",
+                        "label": "Length",
+                        "name": "length",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "110 ft",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c565581ea66",
+                        "label": "Gross Weight",
+                        "name": "gross_weight",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "278,000 lb",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c5655f1ea67",
+                        "label": "Hull Material",
+                        "name": "hull_material",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Fiberglass",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c565691ea68",
+                        "label": "Draft",
+                        "name": "draft",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "5.92 ft",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c5656f1ea69",
+                        "label": "Fuel Capacity",
+                        "name": "fuel_capacity",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "6150 Gallons",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c565761ea6a",
+                        "label": "Fuel Type",
+                        "name": "fuel_type",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Diesel",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c5657c1ea6b",
+                        "label": "Manufacturer",
+                        "name": "manufacturer",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Caterpillar",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c565861ea6c",
+                        "label": "Passengers",
+                        "name": "passengers",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 15,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61c5658d1ea6d",
+                        "label": "Max Speed",
+                        "name": "max_speed",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 180,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_61c57dbc8e048",
+                "label": "Location",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61c57dd38e049",
+                "label": "Location Tags",
+                "name": "location_tags",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "pa_location-tags",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_61c57e035aa45",
+                "label": "Display Location",
+                "name": "display_location",
+                "type": "text",
+                "instructions": "Location information that you want to display in the Hotels list and Single page. Please note that this is for display purpose only and is not used in filters. Use Attributes for filtering purposes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61c57e115aa46",
+                "label": "Location Map",
+                "name": "location_map",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "",
+                "center_lng": "",
+                "zoom": "",
+                "height": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                },
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "product_format:product-format-yacht"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

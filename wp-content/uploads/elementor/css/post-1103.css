@@ -1,0 +1,21 @@
+.elementor-1103 .elementor-element.elementor-element-53bfc78:not(.elementor-motion-effects-element-type-background), .elementor-1103 .elementor-element.elementor-element-53bfc78 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://royaltravelsus.com/wp-content/uploads/2022/02/img11920750.jpeg");}.elementor-1103 .elementor-element.elementor-element-53bfc78{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1103 .elementor-element.elementor-element-53bfc78 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.dzsparallaxer .dzsparallaxer--target{height:130%;}.elementor-1103 .elementor-element.elementor-element-62737e3 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:5px;}.elementor-1103 .elementor-element.elementor-element-d67fa91:not(.elementor-motion-effects-element-type-background), .elementor-1103 .elementor-element.elementor-element-d67fa91 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://royaltravelsus.com/wp-content/uploads/2022/02/img61920450.jpeg");}.elementor-1103 .elementor-element.elementor-element-d67fa91{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1103 .elementor-element.elementor-element-d67fa91 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1103 .elementor-element.elementor-element-4fa6e7a{text-align:left;}.elementor-1103 .elementor-element.elementor-element-4e5757a{text-align:left;}.elementor-1103 .elementor-element.elementor-element-43c0922{text-align:left;}.elementor-1103 .elementor-element.elementor-element-5bf682c{text-align:left;}.elementor-1103 .elementor-element.elementor-element-b095396{text-align:left;}@media(max-width:767px){.elementor-1103 .elementor-element.elementor-element-4fa6e7a{text-align:center;}.elementor-1103 .elementor-element.elementor-element-4e5757a{text-align:center;}.elementor-1103 .elementor-element.elementor-element-43c0922{text-align:center;}.elementor-1103 .elementor-element.elementor-element-5bf682c{text-align:center;}.elementor-1103 .elementor-element.elementor-element-b095396{text-align:center;}}/* Start custom CSS for myt-woocommerce-products, class: .elementor-element-0e63b83 */.card-no-border .card-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.card-no-border .card {
+    border: 0;
+    box-shadow: none;
+    transition: none;
+}
+.card-no-border .card:hover {
+    transform: none;
+}
+
+.card-no-border .product {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !Important;
+}/* End custom CSS */
+/* Start custom CSS for myt-testimonial-carousel, class: .elementor-element-ff594df */.elementor-widget-myt-testimonial-carousel svg {
+    width: 56px;
+    height: 48px;
+}/* End custom CSS */

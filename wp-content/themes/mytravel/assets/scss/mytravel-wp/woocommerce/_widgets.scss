@@ -1,0 +1,411 @@
+.widget {
+	&,
+	&.widget_meta{
+		ul {
+			list-style: none;
+		    padding-left: 0;
+		    margin-bottom: 0;
+
+		    li {
+
+		    	a {
+
+		    		&:not(:hover) {
+		    			color: #67747c;
+		    		}
+
+		    		&:hover {
+		    			color: #1b527c;
+		    		}
+		    	}
+
+		    }
+		}
+	}
+
+    ul.menu ul li>ul li>ul li>ul li>ul li>ul {
+		margin-left:0;
+	}
+}
+
+.shop-sidebar,
+.sidenav .product-filters {
+	.widget{
+		ul {
+			li {
+				margin-bottom: 0.5rem;
+				color: #77838f;
+
+				a {
+					padding: .475rem 1.7rem .475rem 0;
+
+					&:not(:hover) {
+						color: #77838f;
+					}
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				ul.children,
+				ul.sub-menu {
+					font-size: 0.875rem;
+
+					li {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+		&.woocommerce-widget-layered-nav,
+		&.mytravel-widget-layered-nav {
+			.woocommerce-widget-layered-nav-list {
+				li.chosen {
+					.woocommerce-widget-layered-nav-list__item__link {
+						&:before {
+							box-shadow: 0 0 0 0 transparent;
+							color: #fff;
+						    border-color: #297cbb;
+						    background-color: #297cbb;
+						}
+
+						&:after {
+						    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+						}
+					}
+				}
+				a {
+					padding: 0;
+				}
+			}
+		}
+
+		&.widget_rating_filter:not(.mytravel_widget_gold_rating_filter) {
+			ul {
+				li.wc-layered-nav-rating {
+					margin-bottom: 1rem;
+
+					a {
+						position: relative;
+					    display: flex;
+					    align-items: center;
+					    padding: 0 0 0 2rem !important;
+
+						&::before {
+						    background-color: #fff;
+						    border: #ebf0f7 solid 2px;
+						    border-radius: 0.3125rem;
+						    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+						}
+
+						&:before,
+						&:after {
+							position: absolute;
+						    left: 0;
+						    display: block;
+						    width: 1.313rem;
+						    height: 1.313rem;
+						    pointer-events: none;
+						    content: "";
+						}
+
+						&:after {
+							background: no-repeat 50% / 50% 50%;
+						}
+
+						.star-rating {
+							small {
+								font-size: 0.813rem;
+								line-height: 1;
+								letter-spacing: 0.125rem;
+							}
+						}
+
+						.rating-count,
+						> span:not(.star-rating) {
+							display: none;
+						}
+					}
+
+					&.chosen {
+						a {
+							&:before {
+							    color: #fff;
+							    border-color: #297cbb;
+								background-color: #297cbb;
+								box-shadow: 0 0 0 0 transparent;
+
+							}
+
+							&:after {
+								background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+
+							}
+						}
+					}
+
+					&:last-child {
+						margin-bottom: 0.5rem;
+					}
+				}
+			}
+		}
+
+		&.mytravel_widget_gold_rating_filter {
+			ul {
+				li {
+					a {
+						padding: 0 !important;
+						line-height: 1.5;
+					}
+				}
+
+				li:last-child {
+					.form-group.mb-3 {
+						margin-bottom: 0 !important;
+					}
+				}
+			}
+		}
+
+		&.widget_layered_nav {
+			.woocommerce-widget-layered-nav-dropdown__submit {
+				margin-top: 10px;
+				display: inline-block;
+				font-weight: 500;
+				color: #3b444f;
+				text-align: center;
+				vertical-align: middle;
+				user-select: none;
+				background-color: transparent;
+				border: 1px solid transparent;
+				transition: all 0.2s ease-in-out;
+
+				padding: 0.625rem 1.125rem;
+				font-size: 0.875rem;
+				line-height: 1.5;
+				border-radius: 0.25rem;
+
+			}
+
+			.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+				margin-top: 0 !important;
+			}
+
+		}
+
+		&.widget_product_tag_cloud {
+			.tagcloud {
+				a {
+					background-color: #ebf0f7;
+					border-color: #ebf0f7;
+					transition: all 0.2s ease-in-out;
+					font-size: 0.875rem !important;
+					height: 2.188rem;
+					border-radius: 0.188rem;
+					color:#67747c;
+					padding: 0.9rem 1rem;
+					display:inline-flex;
+					align-items: center;
+					font-weight: 500;
+					margin-right: 0.5rem;
+					margin-bottom: 0.5rem;
+
+					&:hover {
+						box-shadow: 0 4px 11px rgba(235, 240, 247, 0.35);
+						color: #444d52;
+						transform: translateY(-3px);
+					}
+				}
+			}
+		}
+
+		&.widget_meta,
+		&.widget_nav_menu {
+			a {
+				display: block;
+			}
+
+			ul.sub-menu {
+				display: block;
+			}
+		}
+
+		&.widget_rss {
+			ul li a.rsswidget {
+				color: $blue-1;
+			}
+
+			.rss-date {
+				color: #8c98a4;
+			}
+		}
+
+		&.widget_recent_reviews,
+		&.widget_products,
+		&.widget_top_rated_products {
+			.rating-count {
+				display: none;
+			}
+
+			.media-body {
+				ins {
+					text-decoration: none;
+				}
+			}
+		}
+
+		&.widget_shopping_cart {
+			.widget_shopping_cart_content {
+				.card-header {
+					display: none;
+				}
+
+				.woocommerce-mini-cart-item,
+				.media {
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+				}
+
+				.card-footer {
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+					padding-bottom: 0 !important;
+
+					.button-inline-group-md {
+						display: block !important;
+
+						a + a {
+							margin-left: 0 !important;
+							margin-top: 20px !important;
+						}
+					}
+				}
+			}
+		}
+
+		&.mytravel_widget_rating_filter ul li a.custom-control-label {
+			padding: 0;
+		}
+
+		&.woocommerce.widget_product_search {
+			.widget-title {
+				margin-bottom: 0 !important;
+				color: #67747c;
+				font-weight: 400 !important;
+			}
+		}
+	}
+
+	.product_list_widget {
+		.woocommerce-Price-amount.font-weight-bold {
+			font-weight: 400 !important;
+		}
+		li.mb-3:last-child {
+			margin-bottom: 0 !important;
+		}
+	}
+
+}
+
+.select2.select2-container .select2-selection--single,
+.select2.select2-container .select2-selection--multiple{
+    display: inline-block;
+    width: 100%;
+    height: 56.8px;
+    padding: .75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a3b9;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23413C5E' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1.25rem center;
+    background-size: 16px 12px;
+    border: 2px solid #ebf0f7;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.select2.select2-container .select2-selection--single,
+.select2.select2-container .select2-selection--multiple {
+    .select2-selection__arrow {
+        display: none;
+    }
+
+    .select2-selection__rendered {
+        padding-left:0;
+    }
+
+    .select2-selection__rendered {
+        line-height: 30px;
+    }
+}
+
+
+.product-categories {
+
+	.cat-parent {
+		> .cs-widget-link {
+			padding-left: 1.2rem;
+		}
+
+		.widget-link {
+			position: relative;
+			padding: 0 !important;
+
+			&::before {
+			    display: inline-block;
+			    font-family: "Font Awesome 5 Free";
+			    font-size: 70%;
+			    font-weight: 900;
+			    content: "\f054";
+			    color: #3b444f;
+			    margin-right: 0.4rem;
+			    position: absolute;
+				top: -1.8rem;
+				transition: transform .25s ease-in-out, opacity .15s ease-in-out;
+			}
+		}
+
+		> [data-toggle='collapse']::before {
+			transform: rotate(90deg);
+			color: $blue-1;
+		}
+
+		> [data-toggle='collapse'].collapsed::before {
+		 	transform: none;
+		 	color: #3b444f;
+
+		}
+	}
+
+	>li {
+		margin-bottom: .5rem;
+	}
+
+	.cs-widget-link {
+		padding: 0.475rem 0;
+		display: block;
+		color: #67747c;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+
+	.children .cs-widget-link {
+		font-size: 0.875rem;
+		color: #67747c;
+		text-wrap: nowrap;
+		width: 100%;
+	}
+}

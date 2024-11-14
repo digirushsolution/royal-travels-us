@@ -1,0 +1,1002 @@
+{
+    "version": "0.4",
+    "title": "Global Kit Styles",
+    "type": "section",
+    "metadata": {
+        "template_type": "global-styles",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "additional_template_information": [
+            "These are the global theme styles configured through the Elementor Theme Styles area."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [],
+    "page_settings": {
+        "system_colors": [
+            {
+                "_id": "primary",
+                "title": "Primary",
+                "color": "#FFFFFF"
+            },
+            {
+                "_id": "secondary",
+                "title": "Secondary",
+                "color": "#021F41"
+            },
+            {
+                "_id": "text",
+                "title": "Text",
+                "color": "#262626"
+            },
+            {
+                "_id": "accent",
+                "title": "Accent",
+                "color": "#FB8E26"
+            }
+        ],
+        "custom_colors": [
+            {
+                "_id": "1925375",
+                "title": "bg-color",
+                "color": "#F0F0F0"
+            },
+            {
+                "_id": "9d9b6aa",
+                "title": "search",
+                "color": "#FCC953"
+            },
+            {
+                "_id": "5b63b2c",
+                "title": "tx-color",
+                "color": "#C0C0C0"
+            },
+            {
+                "_id": "33649db",
+                "title": "tx-coool",
+                "color": "#9B9B9B"
+            },
+            {
+                "_id": "cf5c5bd",
+                "title": "ctm",
+                "color": "#FCEFE2"
+            },
+            {
+                "_id": "5daf6f3",
+                "title": "header-color",
+                "color": "#0A1727"
+            }
+        ],
+        "system_typography": [
+            {
+                "_id": "primary",
+                "title": "Primary",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                },
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 38,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 28,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 34,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "secondary",
+                "title": "Secondary",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 24,
+                    "sizes": []
+                },
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 30,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 28,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "text",
+                "title": "Text",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "accent",
+                "title": "Accent",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                }
+            }
+        ],
+        "custom_typography": [
+            {
+                "_id": "5e31da3",
+                "title": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 50,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 35,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 56,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 39,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 38,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "f0225de",
+                "title": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 28,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                },
+                "typography_font_weight": "600",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 38,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 34,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "2a69ef0",
+                "title": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 24,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_font_weight": "600",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 30,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 28,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "5d03d70",
+                "title": "h4",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_weight": "600",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "c007676",
+                "title": "cp",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "85fc93d",
+                "title": "form",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": "",
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "7aa5a67",
+                "title": "h1 stroke",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 150,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 155,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 100,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 100,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 70,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 70,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "4153adc",
+                "title": "h1 fill ",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 110,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 115,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 70,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 70,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 50,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 50,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "11c7814",
+                "title": "form-banner-text",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_text_transform": "capitalize",
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "ccf5f10",
+                "title": "n-L",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "020ddcc",
+                "title": "nav-link",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 22,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 18,
+                    "sizes": []
+                }
+            },
+            {
+                "_id": "3e6de93",
+                "title": "SUB-HEADING",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                    "unit": "px",
+                    "size": 60,
+                    "sizes": []
+                },
+                "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 45,
+                    "sizes": []
+                },
+                "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                    "unit": "px",
+                    "size": 60,
+                    "sizes": []
+                },
+                "typography_line_height_tablet": {
+                    "unit": "px",
+                    "size": 45,
+                    "sizes": []
+                },
+                "typography_line_height_mobile": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                }
+            }
+        ],
+        "default_generic_fonts": "Sans-serif",
+        "body_background_background": "classic",
+        "page_title_selector": "h1.entry-title",
+        "hello_footer_copyright_text": "All rights reserved",
+        "activeItemIndex": 1,
+        "__globals__": {
+            "body_color": "globals\/colors?id=text",
+            "body_typography_typography": "globals\/typography?id=text",
+            "h1_color": "globals\/colors?id=accent",
+            "body_background_color": "globals\/colors?id=1925375",
+            "h1_typography_typography": "globals\/typography?id=5e31da3",
+            "h2_color": "globals\/colors?id=primary",
+            "h2_typography_typography": "globals\/typography?id=f0225de",
+            "h3_color": "globals\/colors?id=secondary",
+            "h3_typography_typography": "globals\/typography?id=2a69ef0",
+            "h4_color": "globals\/colors?id=secondary",
+            "h4_typography_typography": "globals\/typography?id=5d03d70",
+            "button_typography_typography": "globals\/typography?id=accent",
+            "button_text_color": "globals\/colors?id=primary",
+            "button_background_color": "globals\/colors?id=accent",
+            "button_border_color": "",
+            "button_hover_text_color": "globals\/colors?id=accent",
+            "button_hover_background_color": "globals\/colors?id=secondary",
+            "button_hover_border_color": "globals\/colors?id=accent"
+        },
+        "viewport_md": 768,
+        "viewport_lg": 1025,
+        "body_color": "#262626",
+        "body_typography_typography": "custom",
+        "body_typography_font_family": "Poppins",
+        "body_typography_font_size": {
+            "unit": "px",
+            "size": 18,
+            "sizes": []
+        },
+        "body_typography_font_weight": "400",
+        "body_typography_text_transform": "capitalize",
+        "body_typography_line_height": {
+            "unit": "px",
+            "size": 22,
+            "sizes": []
+        },
+        "h1_color": "#FFFFFF",
+        "h1_typography_typography": "custom",
+        "h1_typography_font_family": "Open Sans",
+        "h1_typography_font_size": {
+            "unit": "px",
+            "size": 50,
+            "sizes": []
+        },
+        "h1_typography_font_weight": "700",
+        "h1_typography_text_transform": "capitalize",
+        "h1_typography_line_height": {
+            "unit": "px",
+            "size": 56,
+            "sizes": []
+        },
+        "h1_typography_word_spacing": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+        },
+        "h2_color": "#FB8E26",
+        "h2_typography_typography": "custom",
+        "h2_typography_font_family": "Open Sans",
+        "h2_typography_font_size": {
+            "unit": "px",
+            "size": 32,
+            "sizes": []
+        },
+        "h2_typography_font_weight": "600",
+        "h2_typography_text_transform": "capitalize",
+        "h2_typography_line_height": {
+            "unit": "px",
+            "size": 38,
+            "sizes": []
+        },
+        "h2_typography_word_spacing": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+        },
+        "h3_color": "#021F41",
+        "h3_typography_typography": "custom",
+        "h3_typography_font_family": "Open Sans",
+        "h3_typography_font_size": {
+            "unit": "px",
+            "size": 24,
+            "sizes": []
+        },
+        "h3_typography_font_weight": "600",
+        "h3_typography_text_transform": "capitalize",
+        "h3_typography_line_height": {
+            "unit": "px",
+            "size": 30,
+            "sizes": []
+        },
+        "h3_typography_word_spacing": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+        },
+        "h4_color": "#021F41",
+        "h4_typography_typography": "custom",
+        "h4_typography_font_family": "Open Sans",
+        "h4_typography_font_size": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+        },
+        "h4_typography_font_weight": "600",
+        "h4_typography_text_transform": "capitalize",
+        "h4_typography_line_height": {
+            "unit": "px",
+            "size": 26,
+            "sizes": []
+        },
+        "h4_typography_word_spacing": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+        },
+        "button_typography_typography": "custom",
+        "button_typography_font_family": "Poppins",
+        "button_typography_font_size": {
+            "unit": "px",
+            "size": 18,
+            "sizes": []
+        },
+        "button_typography_font_weight": "400",
+        "button_typography_text_transform": "capitalize",
+        "button_typography_line_height": {
+            "unit": "px",
+            "size": 22,
+            "sizes": []
+        },
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#FFFFFF00",
+        "button_border_radius": {
+            "unit": "px",
+            "top": "48",
+            "right": "48",
+            "bottom": "48",
+            "left": "48",
+            "isLinked": true
+        },
+        "button_hover_border_radius": {
+            "unit": "px",
+            "top": "48",
+            "right": "48",
+            "bottom": "48",
+            "left": "48",
+            "isLinked": true
+        },
+        "button_padding": {
+            "unit": "px",
+            "top": "16",
+            "right": "40",
+            "bottom": "16",
+            "left": "40",
+            "isLinked": false
+        },
+        "body_background_color": "#F0F0F0",
+        "body_typography_font_size_tablet": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+        },
+        "body_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+        },
+        "body_typography_line_height_tablet": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+        },
+        "body_typography_line_height_mobile": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+        },
+        "h1_typography_font_size_tablet": {
+            "unit": "px",
+            "size": 40,
+            "sizes": []
+        },
+        "h1_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 32,
+            "sizes": []
+        },
+        "h1_typography_line_height_tablet": {
+            "unit": "px",
+            "size": 44,
+            "sizes": []
+        },
+        "h1_typography_line_height_mobile": {
+            "unit": "px",
+            "size": 38,
+            "sizes": []
+        },
+        "h2_typography_font_size_tablet": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+        },
+        "h2_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 26,
+            "sizes": []
+        },
+        "h2_typography_line_height_tablet": {
+            "unit": "px",
+            "size": 34,
+            "sizes": []
+        },
+        "h2_typography_line_height_mobile": {
+            "unit": "px",
+            "size": 32,
+            "sizes": []
+        },
+        "h3_typography_font_size_tablet": {
+            "unit": "px",
+            "size": 22,
+            "sizes": []
+        },
+        "h3_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+        },
+        "h3_typography_line_height_tablet": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+        },
+        "h3_typography_line_height_mobile": {
+            "unit": "px",
+            "size": 26,
+            "sizes": []
+        },
+        "h4_typography_font_size_tablet": {
+            "unit": "px",
+            "size": 18,
+            "sizes": []
+        },
+        "h4_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+        },
+        "h4_typography_line_height_mobile": {
+            "unit": "px",
+            "size": 22,
+            "sizes": []
+        },
+        "h4_typography_letter_spacing_tablet": {
+            "unit": "px",
+            "size": 22,
+            "sizes": []
+        },
+        "button_typography_font_size_tablet": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+        },
+        "button_typography_font_size_mobile": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+        },
+        "button_typography_line_height_tablet": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+        },
+        "button_typography_line_height_mobile": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+        },
+        "button_hover_text_color": "#FB8E26",
+        "button_hover_background_color": "#FFFFFF",
+        "button_padding_tablet": {
+            "unit": "px",
+            "top": "12",
+            "right": "32",
+            "bottom": "12",
+            "left": "32",
+            "isLinked": false
+        },
+        "button_border_border": "solid",
+        "button_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+        },
+        "button_hover_border_border": "solid",
+        "button_hover_border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+        },
+        "button_padding_mobile": {
+            "unit": "px",
+            "top": "12",
+            "right": "25",
+            "bottom": "12",
+            "left": "25",
+            "isLinked": false
+        }
+    }
+}

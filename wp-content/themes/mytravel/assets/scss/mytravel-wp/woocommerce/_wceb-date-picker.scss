@@ -1,0 +1,54 @@
+.wceb_picker_wrap {
+	position: relative;
+	margin-bottom: 18px;
+
+	.form-row {
+		label {
+			color: #67747c;
+		    font-size: 1rem;
+		    display: block;
+		    margin-bottom: 4px;
+		    line-height: 24px;
+		}
+
+		position: relative;
+
+		&:after {
+			content: "\f118";
+		    position: absolute;
+		    left: 0;
+		    bottom: 13px;
+		    font-family: Flaticon;
+		    color: #297cbb;
+		    font-size: 21px;
+		}
+	}
+
+	.reset_dates {
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 14px;
+	}
+	
+	.datepicker_start,
+	.datepicker_end {
+		border: 0 !important;
+		border-bottom: 2px solid #eaeaea !important;
+		color: #3b444f !important;
+		font-weight: 500 !important;
+		padding-left: 31px !important;
+		font-size: 14px !important;
+		padding-bottom: 22px !important;
+
+		&::placeholder {
+			color: #3b444f !important;
+		}
+	}
+}
+
+
+.wapf-wrapper + .wceb_picker_wrap,
+.wapf-product-totals + .wceb_picker_wrap {
+	margin-top: 9px;
+}

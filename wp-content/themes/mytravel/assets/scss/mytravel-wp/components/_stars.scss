@@ -1,0 +1,78 @@
+$color_woocommerce: #297cbb;
+$color_body: #60646c;
+
+p.stars,
+p.rating-category-stars {
+    display: inline-block;
+    margin: 0;
+
+    a {
+        position: relative;
+        height: 1em;
+        width: 1em;
+        text-indent: -999em;
+        overflow: hidden;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 600;
+
+        &::before {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1em;
+            height: 1em;
+            line-height: 1;
+            font-family: "Font Awesome 5 Free";
+            content: "\f005";
+            font-size: 0.95em; // Font-awesome glyph is rectangular.
+            color: $color_body;
+            text-indent: 0;
+            opacity: 0.25;
+        }
+
+        &:hover {
+
+            ~ a::before {
+                color: $color_body;
+                opacity: 0.25;
+            }
+        }
+    }
+
+    &:hover {
+
+        a {
+
+            &::before {
+                color: $color_woocommerce;
+                opacity: 1;
+            }
+        }
+    }
+
+    &.selected {
+
+        a.active {
+
+            &::before {
+                color: $color_woocommerce;
+                opacity: 1;
+            }
+
+            ~ a::before {
+                color: $color_body;
+                opacity: 0.25;
+            }
+        }
+
+        a:not(.active) {
+
+            &::before {
+                color: $color_woocommerce;
+                opacity: 1;
+            }
+        }
+    }
+}

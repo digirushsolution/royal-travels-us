@@ -1,0 +1,748 @@
+.mytravel-share {
+	.dropdown-item{
+		&:hover,
+		&:focus {
+			color: #fff;
+		}
+	}
+}
+
+#sliderSyncingNav {
+	.single-v1-wp-image-placeholder {
+		img {
+			height: 490px;
+			object-fit: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+.woocommerce-tabs {
+	.wc-tabs {
+		li {
+			&.active {
+				a {
+					color: #fff !important;
+				}
+			}
+		}
+	}
+
+	.woocommerce-product-attributes {
+		.woocommerce-product-attributes-item__value {
+			p:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.related:not(.related-hotel) {
+	.gold-star-rating {
+		display: none;
+	}
+	.card-body {
+		padding: 1rem 1.5rem !important;
+	}
+}
+
+.wceb_picker_wrap {
+	> p {
+		flex-direction: column;
+		margin-left: 0;
+		margin-right: 0;
+
+		label {
+			color: #3b444f;
+		}
+
+		input[type="text"] {
+			display: block;
+			width: 100%;
+			height: calc(1.5em + 1.8rem + 4px);
+			padding: 0.9rem 1rem;
+			font-weight: 400;
+			line-height: 1.5;
+			color: #3b444f;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 2px solid #ebf0f7;
+			border-radius: 0.3125rem;
+			transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			font-size: 0.875rem;
+		}
+	}
+}
+
+form.cart {
+	position: relative;
+
+	a.reset_variations {
+		position: absolute;
+		top: -15px;
+		right:0;
+		font-size: 14px;
+	}
+
+	.booking_price .price,
+	.woocommerce-variation-price {
+		color: #18181a;
+		font-size: 20px;
+		font-weight: 500;
+
+		del {
+			.woocommerce-Price-amount {
+				font-weight: 400 !important;
+				color: #77838f !important;
+				font-size: 16px !important;
+			}
+		}
+
+		ins {
+			text-decoration: none;
+		}
+	}
+}
+
+form.variations_form.cart {
+
+	.woocommerce-variation-add-to-cart {
+		.quantity {
+			margin-bottom: 20px;
+		}
+	}
+
+	.variations {
+
+		.value {
+			margin-left: -3px;
+
+			select {
+				border: 0;
+				padding: 0;
+				font-weight: 500;
+				color: #3b444f;
+				border-bottom: 2px solid #eaeaea;
+				font-size: 16px;
+				height: 42px;
+				border-radius: 0;
+
+				&:focus {
+					box-shadow: none !important;
+				}
+			}
+		}
+	}
+	.single_variation_wrap {
+		.woocommerce-variation.single_variation {
+			margin-bottom: 20px;
+
+			.woocommerce-Price-amount{
+				font-size: 1.2rem !important;
+			}
+
+			.price {
+				del {
+					.woocommerce-Price-amount{
+						font-size: 1rem !important;
+					}
+				}
+			}
+
+			.woocommerce-variation-availability {
+				margin-top: 10px;
+			}
+		}
+
+		.mytravel-datepicker {
+			display: none;
+		}
+	}
+
+	p.out-of-stock {
+		margin-bottom: 0;
+	}
+}
+
+.guest-picker:not(.hotel-guest-picker ){
+	.dropdown-toggle::after {
+		content: none;
+	}
+}
+
+form.cart.grouped_form {
+	.woocommerce-grouped-product-list-item__price {
+		.woocommerce-Price-amount {
+			font-size: 15px !important;
+		}
+
+		.wceb-price-format {
+			font-size: 15px;
+		}
+	}
+}
+
+.single-product {
+	.border-bottom{
+		.price {
+			del {
+				.woocommerce-Price-amount {
+					font-weight: 400 !important;
+					color: #77838f !important;
+					font-size: 16px !important;
+				}
+			}
+
+			ins {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.products {
+	.card {
+		.price-wrapper {
+			ins {
+				text-decoration: none;
+			}
+
+			del {
+				.woocommerce-Price-amount {
+					font-weight: 400 !important;
+					color: #77838f !important;
+					font-size: 14px !important;
+				}
+			}
+		}
+	}
+}
+
+#single-hotel__rooms {
+	.col {
+		.text-center {
+			del {
+				.woocommerce-Price-amount {
+					font-weight: 400 !important;
+					color: #77838f !important;
+					font-size: 16px !important;
+				}
+			}
+
+			ins {
+				text-decoration: none;
+			}
+
+			form.cart {
+				.variations {
+					text-align: left !important;
+				}
+
+				ins {
+					.woocommerce-Price-amount {
+						font-size: 20px !important;
+					}
+				}
+
+				.single_variation_wrap {
+					.woocommerce-variation {
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.hotel-list-view {
+	span.price {
+		span.text-white,
+		.woocommerce-Price-amount {
+			color: #3b444f !important;
+		}
+	}
+}
+
+.tour-list-view {
+	.rating-count {
+		display: none;
+	}
+}
+
+.prodcut-list-view .price del .woocommerce-Price-amount {
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	display: block;
+}
+
+.prodcut-list-view .price ins {
+	text-decoration: none;
+}
+
+.product .card .card-header .price del .woocommerce-Price-amount {
+	font-weight: 400 !important;
+	color: #fff !important;
+	font-size: 14px !important;
+}	
+
+.single-product {
+	.related {
+		.card-header {
+			.woocommerce-loop-product__title {
+				color: #fff !important;
+			}
+
+			img.min-height-230 {
+				height: 230px
+			}
+
+			.price-wrapper {
+				span:not(.woocommerce-Price-amount) {
+					color: #fff !important;
+				}
+			}
+		}
+
+		.card-body {
+			.woocommerce-Price-amount.text-white {
+				color: #3b444f !important;
+			}
+
+			.price-wrapper {
+				span:not(.woocommerce-Price-amount) {
+					color: #67747c !important;
+				}
+
+				del {
+					.woocommerce-Price-amount {
+					    font-size: 1rem !important;
+					    color: #67747c !important;
+					    font-weight: 400 !important;
+
+					}
+				}
+			}
+		}
+	}
+}
+
+.hotel-list-view {
+	.card-body {
+		del {
+			.woocommerce-Price-amount {
+			    font-size: 1rem !important;
+			    color: #67747c !important;
+			    font-weight: 400 !important;
+
+			}
+		}
+	}
+}
+
+.mytravel-elementor-date-picker {
+	.u-datepicker {
+		.font-size-21 {
+			font-size: 16px !important;
+		}
+	}
+}
+
+.slick-slide.min-height-550 {
+	min-height:34.375rem !important;
+}
+
+.single-product-qty-style-enable {
+	.variations_form {
+		.variations {
+			display: none;
+		}
+	}
+}
+
+.single-product .list-group-item>.yith-wcwl-add-to-wishlist .yith-wcwl-add-button a>i.fa {
+	font-size: 1.125rem;
+    font-family: FontAwesome;
+    color: #3b444f;
+}
+
+.single-product-v1 {
+	.variations_form.cart {
+		.variations {
+			.wrap {
+				border-bottom: 1px solid #e7eaf3;
+				justify-content: space-between;
+				display: flex;
+				align-items: center;
+				padding-bottom: 10px;
+			}
+
+			label {
+				color: #3b444f !important;
+				font-weight: 500 !important;
+				margin-bottom: 0 !important;
+			}
+
+			.value {
+				width: fit-content;
+				min-height: 24px;
+				
+				select {
+					padding-right: 5px;
+					height: auto !important;
+					border:0;
+				}
+			}
+
+		}
+	}
+}
+
+.single-hotel-availability {
+	form.variations_form.cart {
+		.mytravel-datepicker, {
+			display: none;
+		}
+	}
+
+	form.cart.mytravel-cart-form {
+		.mytravel-datepicker {
+			display: none;
+		}
+	}
+}
+
+.single-product-right-content .summary > * ~ * {
+	margin-top: 1.2rem;
+}
+
+.woocommerce-product-gallery__trigger {
+	position: absolute;
+    top: 0.875em;
+    right: 0.875em;
+    display: block;
+    height: 2em;
+    width: 2em;
+    border-radius: 3px;
+    z-index: 99;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #333333;
+
+    &:before {
+    	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    line-height: inherit;
+    vertical-align: baseline;
+    content: "\f00e";
+    display: block;
+    line-height: 2;
+    text-indent: 0;
+    }
+}
+
+.woocommerce-product-gallery__trigger img {
+	display: none !important;
+}
+
+.single-product-left-content .woocommerce-product-gallery__wrapper {
+	text-align: center;
+}
+
+.single-product-left-content {
+	.woocommerce-product-gallery {
+		position: relative;
+
+		@media(min-width: 1200px) {
+			margin-right: 5.8823529412%;
+		}
+		
+		.flex-control-thumbs {
+			margin: 20px 0 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+
+			li {
+				width: 40px;
+				cursor:pointer;
+
+				@media(min-width: 991px) {
+					width: 60px;
+				}
+			}
+
+			li + li {
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.onsale {
+		position: absolute;
+	    left: 15px;
+	    top: 0;
+	    z-index: 9;
+	    background: #00c9a7;
+	    color: #fff;
+	    padding: 0.25rem 1rem;
+	}
+}
+
+.single-product-right-content {
+	form.grouped_form {
+		.woocommerce-grouped-product-list {
+			border: 1px solid #e7eaf3;
+			padding: 1.5rem;
+			border-radius: 0.3125rem;
+
+			.woocommerce-grouped-product-list-item:last-child {
+				border: 0 !important;
+				margin: 0 !important;
+				padding: 0 !important;
+			}
+		}
+	}
+
+	.summary {
+		.rating-count {
+			display: none;
+		}
+
+		del {
+			.woocommerce-Price-amount {
+				color: #8c98a4 !important;
+				font-weight: 400 !important;
+				font-size: 1.3rem !important;
+			}
+		}
+
+		.product_meta {
+			.sku,
+			.posted_in,
+			.posted_in a:not(:hover) {
+				color: #77838f;
+			}
+
+		}
+
+		.single_add_to_cart_button {
+			max-width: 300px;
+		}
+	}
+}
+
+.woocommerce-cart,
+.woocommerce-checkout,
+.woocommerce-account {
+	.bg-img-hero {
+		margin-bottom: 0 !important;
+	}
+	.not-prose {
+		max-width: 100% !important;
+		margin: 0 !important;
+	}
+}
+
+.woocommerce-account:not(.logged-in) {
+	.not-prose {
+		max-width: 100% !important;
+		margin: 0 !important;
+	}
+}
+
+.container.space-y-6 {
+	.related {
+		.space-1 {
+			padding-top: 0 !important;
+		}
+	}
+}
+
+.woocommerce-tabs{
+	&.default_wc_tabs {
+		.woocommerce-inner-tabs {
+			border: 0 !important;
+			border-radius: 0 !important;
+			padding: 0 !important;
+
+			ul.tabs {
+				border-bottom: 1px solid #e7eaf3 !important;
+			}
+
+			.tab-nav-pill {
+				.nav-item {
+					&.active {
+						border-radius: 0 !important;
+						background: transparent !important;
+						color: #1d508d !important;
+
+						a {
+							color: #1d508d !important;
+						}
+					}
+
+					&:first-child {
+						a {
+							padding-left: 0 !important;
+						}
+					}
+				}
+			}
+		}
+
+		.woocommerce-Tabs-panel--reviews {
+			#review_form_wrapper {
+				padding: 0 !important;
+			}
+		}
+	}
+}
+
+.default_related_products {
+	.space-1 {
+		padding-top: 0 !important;
+	}
+
+	.card-header {
+		img {
+			object-fit: cover;
+		}
+	}
+}
+
+.bg-img-hero {
+	.breadcrumb li.breadcrumb-item {
+		color: #fff !important;
+
+		&:before {
+			color: #fff !important;
+		}
+
+		a  {
+			color: #fff !important;
+		}
+	}
+}
+
+.product_meta > * ~ * {
+	display: block;
+	margin-top: 0.4rem;
+}
+
+.mytravel-hotel-availability {
+	.quantity,
+	.booking_price {
+		display: none !important;
+	}
+
+	form.cart.grouped_form {
+		.wceb_picker_wrap {
+			display: block !important;
+		}
+
+		.woocommerce-grouped-product-list,
+		.single_add_to_cart_button {
+			display: none !important;
+		}
+	}
+}
+
+.grouped-product-room {
+	.wceb_picker_wrap {
+		display: block !important;
+	}
+}
+
+.single_add_to_cart_button.disabled{
+	cursor: inherit;
+}
+
+.mytravel-cart-form {
+	text-align: left;
+
+	.wapf-wrapper {
+		label span {
+			color: #67747c !important;
+		    font-size: 1rem !important;
+		    display: block;
+		    margin-bottom: 4px;
+		    line-height: 24px;
+		    font-weight: 400 !important;
+		}
+		
+		.wapf-field-input {
+			padding-bottom: 10px;
+		}
+	}
+
+	.quantity {
+		margin-bottom: 15px;
+	}
+}
+
+.single-product-rental {
+	form.cart.mytravel-cart-form {
+		.wapf-wrapper,
+		.wapf-product-totals,
+		.mytravel-datepicker {
+			display: none;
+		}
+	}
+}
+
+#single-hotel__rooms {
+	form.cart.mytravel-cart-form {
+		.wapf-wrapper {
+			display: none;
+		}
+	}
+}
+
+.rental-availability {
+	form.cart {
+		.wapf-wrapper,
+		.mytravel-datepicker {
+			display: none;
+		}
+	}
+}
+
+.single-product-standard {
+	form.cart {
+		.wapf-wrapper {
+			display: none;
+		}
+	}
+}
+
+.mytravel-datepicker .u-datepicker .flatpickr-calendar .flatpickr-month,
+.mytravel-elementor-date-picker .flatpickr-month {
+    position: relative;
+    background-color: #297cbb;
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
+    padding: 0.75rem;
+    height: 52px;
+    color: #fff;
+}
+
+.wceb_picker_wrap .picker:not(.picker--opened) table.picker__table *{
+	 word-break: normal;
+}
+
+.wceb_picker_wrap .picker:not(.picker--opened) table.picker__table th,
+.picker:not(.picker--opened) table.picker__table td {
+	padding: 5px;
+	text-align: center;
+	font-size:15px;
+}

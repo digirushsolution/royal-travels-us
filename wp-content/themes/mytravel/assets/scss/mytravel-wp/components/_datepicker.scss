@@ -1,0 +1,40 @@
+.u-datepicker .flatpickr-months {
+	position: relative;
+    background-color: #297cbb;
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
+    padding: 0.75rem;
+
+}
+
+.u-datepicker .flatpickr-prev-month.flatpickr-prev-month, 
+.u-datepicker .flatpickr-next-month.flatpickr-prev-month {
+	left: .75rem;
+}
+
+.mytravel-datepicker .flatpickr-prev-month + .flatpickr-current-month {
+    background: transparent;
+    color: #fff;
+    height: auto;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    left:0;
+}
+
+.mytravel-datepicker .flatpickr-prev-month + .flatpickr-current-month .cur-month {
+font-weight: 700;
+}
+
+.mytravel-datepicker {
+    color: red;
+}

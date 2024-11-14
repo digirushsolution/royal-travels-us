@@ -1,0 +1,2644 @@
+# Copyright (C) 2024 MadrasThemes
+# This file is distributed under the same license as the MyTravel Elementor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MyTravel Elementor 1.0.18\n"
+"Report-Msgid-Bugs-To: https://madrasthemes.freshdesk.com/\n"
+"POT-Creation-Date: 2024-02-12 05:44:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: POT <support@madrasthemes.freshdesk.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: modules/carousel/widgets/base.php:190
+msgid "1"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:191
+msgid "2"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:192
+msgid "3"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:193
+msgid "4"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:194
+msgid "5"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:195
+msgid "6"
+msgstr ""
+
+#: base/module-base.php:52
+#: modules/accordion/skins/skin-accordion-mytravel.php:53
+#: modules/button/skins/skin-button-mytravel.php:36
+msgid "Mytravel"
+msgstr ""
+
+#: core/icons-manager.php:35
+msgid "Flaticon"
+msgstr ""
+
+#: core/utils.php:129
+#. translators: %s: Search term.
+msgid "Search Results for: %s"
+msgstr ""
+
+#: core/utils.php:133
+#. translators: %s is the page number.
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: core/utils.php:140
+#. translators: Category archive title. 1: Category name
+msgid "Category: %s"
+msgstr ""
+
+#: core/utils.php:146
+#. translators: Tag archive title. 1: Tag name
+msgid "Tag: %s"
+msgstr ""
+
+#: core/utils.php:153
+#. translators: Author archive title. 1: Author name
+msgid "Author: %s"
+msgstr ""
+
+#: core/utils.php:160
+#. translators: Yearly archive title. 1: Year
+msgid "Year: %s"
+msgstr ""
+
+#: core/utils.php:167
+#. translators: Monthly archive title. 1: Month name and year
+msgid "Month: %s"
+msgstr ""
+
+#: core/utils.php:174
+#. translators: Daily archive title. 1: Date
+msgid "Day: %s"
+msgstr ""
+
+#: core/utils.php:201
+#. translators: Post type archive title. 1: Post type name
+msgid "Archives: %s"
+msgstr ""
+
+#: core/utils.php:209
+#. translators: Taxonomy term archive title. 1: Taxonomy singular name, 2:
+#. Current taxonomy term
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: core/utils.php:212
+msgid "Archives"
+msgstr ""
+
+#: core/utils.php:214
+msgid "Page Not Found"
+msgstr ""
+
+#: includes/controls/font-size.php:26
+#: modules/button/skins/skin-button-mytravel.php:97
+#: modules/button/skins/skin-button-mytravel.php:117
+#: modules/button/skins/skin-button-mytravel.php:137
+#: modules/nav-menu/widgets/nav-menu.php:204
+#: modules/nav-tabs/widgets/nav-tabs.php:155
+#: modules/page-settings/module.php:744 modules/page-settings/module.php:767
+#: modules/page-settings/module.php:789 modules/page-settings/module.php:881
+#: modules/page-settings/module.php:908 modules/page-settings/module.php:934
+#: modules/parallax-banner/widgets/parallax-banner.php:209
+#: modules/parallax-banner/widgets/parallax-banner.php:231
+#: modules/posts/traits/button-widget-trait.php:62
+msgid "Default"
+msgstr ""
+
+#: includes/controls/font-size.php:27
+msgid "Display 1"
+msgstr ""
+
+#: includes/controls/font-size.php:28
+msgid "Display 2"
+msgstr ""
+
+#: includes/controls/font-size.php:29
+msgid "Display 3"
+msgstr ""
+
+#: includes/controls/font-size.php:30
+msgid "Display 4"
+msgstr ""
+
+#: includes/controls/font-size.php:31
+msgid "fs-1"
+msgstr ""
+
+#: includes/controls/font-size.php:32
+msgid "fs-2"
+msgstr ""
+
+#: includes/controls/font-size.php:33
+msgid "fs-3"
+msgstr ""
+
+#: includes/controls/font-size.php:34
+msgid "fs-4"
+msgstr ""
+
+#: includes/controls/font-size.php:35
+msgid "fs-5"
+msgstr ""
+
+#: includes/controls/font-size.php:36
+msgid "fs-md-3"
+msgstr ""
+
+#: includes/controls/font-size.php:37
+msgid "fs-md-5"
+msgstr ""
+
+#: includes/controls/font-size.php:38
+msgid "h1"
+msgstr ""
+
+#: includes/controls/font-size.php:39
+msgid "h2"
+msgstr ""
+
+#: includes/controls/font-size.php:40
+msgid "h3"
+msgstr ""
+
+#: includes/controls/font-size.php:41
+msgid "h4"
+msgstr ""
+
+#: includes/controls/font-size.php:42
+msgid "h5"
+msgstr ""
+
+#: includes/controls/font-size.php:43
+msgid "h6"
+msgstr ""
+
+#: modules/accordion/skins/skin-accordion-mytravel.php:89
+#: modules/carousel/widgets/deal-carousel.php:132
+#: modules/parallax-banner/widgets/parallax-banner.php:110
+msgid "Title HTML Tag"
+msgstr ""
+
+#: modules/breadcrumb/widgets/breadcrumb.php:39
+msgid "Breadcrumb"
+msgstr ""
+
+#: modules/breadcrumb/widgets/breadcrumb.php:79
+msgid "Section"
+msgstr ""
+
+#: modules/breadcrumb/widgets/breadcrumb.php:86
+msgid "Nav Class"
+msgstr ""
+
+#: modules/breadcrumb/widgets/breadcrumb.php:94
+msgid "Ordered List Class"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:65
+#: modules/parallax-banner/widgets/parallax-banner.php:183
+#: modules/posts/traits/button-widget-trait.php:58
+msgid "Type"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:69
+#: modules/page-settings/module.php:535 modules/page-settings/module.php:586
+#: modules/page-settings/module.php:683 modules/page-settings/module.php:829
+#: modules/parallax-banner/widgets/parallax-banner.php:187
+#: modules/search/widgets/search.php:164
+msgid "Primary"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:70
+#: modules/page-settings/module.php:536 modules/page-settings/module.php:587
+#: modules/parallax-banner/widgets/parallax-banner.php:188
+msgid "Secondary"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:71
+#: modules/page-settings/module.php:537 modules/page-settings/module.php:588
+#: modules/page-settings/module.php:684 modules/page-settings/module.php:830
+#: modules/parallax-banner/widgets/parallax-banner.php:189
+#: modules/posts/traits/button-widget-trait.php:64
+#: modules/search/widgets/search.php:165
+msgid "Success"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:72
+#: modules/page-settings/module.php:538 modules/page-settings/module.php:589
+#: modules/page-settings/module.php:685 modules/page-settings/module.php:831
+#: modules/parallax-banner/widgets/parallax-banner.php:190
+#: modules/posts/traits/button-widget-trait.php:66
+#: modules/search/widgets/search.php:166
+msgid "Danger"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:73
+#: modules/page-settings/module.php:539 modules/page-settings/module.php:590
+#: modules/page-settings/module.php:686 modules/page-settings/module.php:832
+#: modules/parallax-banner/widgets/parallax-banner.php:191
+#: modules/posts/traits/button-widget-trait.php:65
+#: modules/search/widgets/search.php:167
+msgid "Warning"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:74
+#: modules/page-settings/module.php:540 modules/page-settings/module.php:591
+#: modules/page-settings/module.php:687 modules/page-settings/module.php:833
+#: modules/parallax-banner/widgets/parallax-banner.php:192
+#: modules/posts/traits/button-widget-trait.php:63
+#: modules/search/widgets/search.php:168
+msgid "Info"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:75
+msgid "Indigo"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:76
+#: modules/parallax-banner/widgets/parallax-banner.php:193
+msgid "Navy"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:77
+#: modules/page-settings/module.php:541 modules/page-settings/module.php:592
+#: modules/parallax-banner/widgets/parallax-banner.php:194
+msgid "Light"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:78
+#: modules/page-settings/module.php:542 modules/page-settings/module.php:593
+#: modules/page-settings/module.php:688 modules/page-settings/module.php:834
+#: modules/parallax-banner/widgets/parallax-banner.php:195
+#: modules/search/widgets/search.php:169
+msgid "Dark"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:79
+#: modules/carousel/widgets/deal-carousel.php:120
+#: modules/carousel/widgets/destination-carousel.php:132
+#: modules/carousel/widgets/hero-carousel.php:131
+#: modules/destination/widgets/destination.php:102
+#: modules/highlighted-heading/widgets/highlighted-heading.php:118
+#: modules/page-settings/module.php:543 modules/page-settings/module.php:594
+#: modules/page-settings/module.php:689 modules/page-settings/module.php:835
+#: modules/parallax-banner/widgets/parallax-banner.php:196
+#: modules/parallax-banner/widgets/parallax-banner.php:248
+#: modules/posts/traits/button-widget-trait.php:90
+#: modules/search/widgets/search.php:170
+msgid "Link"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:80
+#: modules/page-settings/module.php:690 modules/page-settings/module.php:836
+#: modules/parallax-banner/widgets/parallax-banner.php:197
+#: modules/search/widgets/search.php:171
+msgid "White"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:93
+#: modules/parallax-banner/widgets/parallax-banner.php:205
+msgid "Variant"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:98
+#: modules/page-settings/module.php:790 modules/page-settings/module.php:935
+#: modules/parallax-banner/widgets/parallax-banner.php:210
+msgid "Outline"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:99
+#: modules/page-settings/module.php:791 modules/page-settings/module.php:936
+#: modules/parallax-banner/widgets/parallax-banner.php:211
+msgid "Translucent"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:100
+#: modules/parallax-banner/widgets/parallax-banner.php:212
+msgid "Soft"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:113
+#: modules/destination/widgets/destination.php:164
+msgid "Style"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:118
+#: modules/nav-tabs/widgets/nav-tabs.php:156
+msgid "Pill"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:119
+#: modules/nav-tabs/widgets/nav-tabs.php:159
+msgid "Square"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:133
+#: modules/carousel/widgets/base.php:252 modules/carousel/widgets/base.php:322
+#: modules/highlighted-heading/widgets/highlighted-heading.php:142
+#: modules/parallax-banner/widgets/parallax-banner.php:225
+#: modules/posts/traits/button-widget-trait.php:135
+msgid "Size"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:138
+#: modules/parallax-banner/widgets/parallax-banner.php:230
+#: modules/posts/traits/button-widget-trait.php:29
+msgid "Extra Small"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:139
+#: modules/parallax-banner/widgets/parallax-banner.php:229
+#: modules/posts/traits/button-widget-trait.php:30
+msgid "Small"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:140
+#: modules/parallax-banner/widgets/parallax-banner.php:232
+#: modules/posts/traits/button-widget-trait.php:32
+msgid "Large"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:141
+#: modules/page-settings/module.php:747 modules/page-settings/module.php:884
+#: modules/parallax-banner/widgets/parallax-banner.php:234
+msgid "Wide"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:142
+#: modules/parallax-banner/widgets/parallax-banner.php:233
+msgid "Block"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:156
+#: modules/button/skins/skin-button-mytravel.php:354
+#: modules/button/skins/skin-button-mytravel.php:367
+#: modules/column/module.php:87
+msgid "CSS Classes"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:161
+#: modules/button/skins/skin-button-mytravel.php:256
+#: modules/button/skins/skin-button-mytravel.php:266
+#: modules/button/skins/skin-button-mytravel.php:359
+#: modules/button/skins/skin-button-mytravel.php:372
+#: modules/counter/skins/counter-skin.php:164
+#: modules/counter/skins/counter-skin.php:188
+#: modules/nav-tabs/widgets/nav-tabs.php:257
+#: modules/nav-tabs/widgets/nav-tabs.php:267
+#: modules/nav-tabs/widgets/nav-tabs.php:277
+#: modules/nav-tabs/widgets/nav-tabs.php:287
+#: modules/video/skins/skin-video.php:207
+#: modules/video/skins/skin-video.php:217
+#: modules/video/skins/skin-video.php:227
+msgid "Add your custom class WITHOUT the dot. e.g: my-class"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:162
+msgid "Added to <i> tag"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:214
+#: modules/parallax-banner/widgets/parallax-banner.php:163
+#: modules/parallax-banner/widgets/parallax-banner.php:403
+#: modules/posts/widgets/posts-base.php:76
+#: modules/posts/widgets/posts-base.php:295
+msgid "Button"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:235
+#: modules/posts/traits/button-widget-trait.php:281
+#: modules/posts/widgets/posts-base.php:441
+#: modules/team-member/widgets/team-member.php:208
+msgid "Normal"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:242
+#: modules/button/skins/skin-button-mytravel.php:308
+#: modules/carousel/widgets/destination-carousel.php:161
+#: modules/carousel/widgets/testimonial-carousel.php:204
+#: modules/counter/skins/counter-skin.php:148
+#: modules/counter/skins/counter-skin.php:172
+#: modules/nav-tabs/widgets/nav-tabs.php:207
+#: modules/posts/traits/button-widget-trait.php:289
+#: modules/posts/traits/button-widget-trait.php:334
+msgid "Text Color"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:254
+#: modules/nav-tabs/widgets/nav-tabs.php:285
+msgid "Text CSS Classes"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:257
+msgid "Added to .elementor-button-text tag"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:264
+msgid "Icon Wrapper Classes"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:267
+msgid "Added to .elementor-button-icon"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:274
+#: modules/button/skins/skin-button-mytravel.php:331
+#: modules/posts/traits/button-widget-trait.php:364
+#: modules/posts/widgets/posts-base.php:561
+msgid "Border Color"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:285
+#: modules/button/skins/skin-button-mytravel.php:320
+#: modules/carousel/widgets/testimonial-carousel.php:215
+#: modules/nav-tabs/widgets/nav-tabs.php:196
+msgid "Background Color"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:301
+#: modules/posts/traits/button-widget-trait.php:326
+#: modules/posts/widgets/posts-base.php:463
+msgid "Hover"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:342
+#: modules/posts/traits/button-widget-trait.php:379
+msgid "Hover Animation"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:360
+msgid "Added to .btn tag"
+msgstr ""
+
+#: modules/button/skins/skin-button-mytravel.php:373
+msgid "Added to .elementor-button-content-wrapper tag"
+msgstr ""
+
+#: modules/carousel/skins/skin-deal-carousel.php:45
+msgid "Deal Carousel v1"
+msgstr ""
+
+#: modules/carousel/skins/skin-product-carousel-v1.php:45
+#: modules/nav-tabs/widgets/nav-tabs.php:132
+#: modules/posts/skins/skin-products-style-1.php:27
+#: modules/search/widgets/search.php:56
+msgid "Hotel"
+msgstr ""
+
+#: modules/carousel/skins/skin-product-carousel-v2.php:38
+#: modules/posts/skins/skin-products-style-2.php:27
+#: modules/search/widgets/search.php:57
+msgid "Tour"
+msgstr ""
+
+#: modules/carousel/skins/skin-product-carousel-v3.php:38
+#: modules/nav-tabs/widgets/nav-tabs.php:138
+#: modules/posts/skins/skin-products-style-3.php:27
+#: modules/search/widgets/search.php:58
+msgid "Activity"
+msgstr ""
+
+#: modules/carousel/skins/skin-product-carousel-v4.php:38
+#: modules/nav-tabs/widgets/nav-tabs.php:141
+#: modules/posts/skins/skin-products-style-4.php:27
+#: modules/search/widgets/search.php:59
+msgid "Rental"
+msgstr ""
+
+#: modules/carousel/skins/skin-product-carousel-v5.php:38
+#: modules/posts/skins/skin-products-style-5.php:27
+#: modules/search/widgets/search.php:60
+msgid "Car Rental"
+msgstr ""
+
+#: modules/carousel/skins/skin-product-carousel-v6.php:38
+#: modules/posts/skins/skin-products-style-6.php:27
+#: modules/search/widgets/search.php:61
+msgid "Yacht"
+msgstr ""
+
+#: modules/carousel/skins/skin-testimonial-carousel-v1.php:45
+msgid "Skin v1"
+msgstr ""
+
+#: modules/carousel/skins/skin-testimonial-carousel-v2.php:45
+msgid "Skin v2"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:69 modules/carousel/widgets/base.php:81
+msgid "Slides"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:91
+msgid "Autoplay"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:101
+msgid "Autoplay Speed"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:115 modules/carousel/widgets/base.php:243
+msgid "Arrows"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:117 modules/carousel/widgets/base.php:156
+#: modules/carousel/widgets/base.php:178
+#: modules/destination/widgets/destination.php:156
+#: modules/nav-tabs/widgets/nav-tabs.php:108
+#: modules/posts/widgets/products.php:157
+#: modules/posts/widgets/products.php:171
+msgid "Hide"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:118 modules/carousel/widgets/base.php:157
+#: modules/carousel/widgets/base.php:179
+#: modules/destination/widgets/destination.php:157
+#: modules/nav-tabs/widgets/nav-tabs.php:109
+#: modules/posts/widgets/products.php:158
+#: modules/posts/widgets/products.php:172
+msgid "Show"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:125
+msgid "Arrow Position"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:129
+msgid "Outer"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:130
+msgid "Inner"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:141
+msgid "Arrow CSS Classes"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:154
+msgid "Dots Enable ?"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:164
+msgid "Dot CSS Classes"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:176
+msgid "Center Mode"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:188
+msgid "Slides Per View"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:205
+msgid "Select Rows"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:213
+msgid "Infinite Loop"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:223
+msgid "Fade"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:235
+msgid "Navigation"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:271 modules/carousel/widgets/base.php:307
+#: modules/posts/widgets/posts-base.php:134
+#: modules/posts/widgets/posts-base.php:449
+#: modules/posts/widgets/posts-base.php:470
+#: modules/posts/widgets/posts-base.php:491
+#: modules/search/widgets/search.php:160 modules/video/skins/skin-video.php:194
+msgid "Color"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:282
+msgid "Background Hover Color"
+msgstr ""
+
+#: modules/carousel/widgets/base.php:296
+#: modules/posts/widgets/posts-base.php:184
+#: modules/posts/widgets/posts-base.php:191
+#: modules/posts/widgets/posts-base.php:408
+#: modules/posts/widgets/posts-base.php:632
+#: modules/woocommerce/widgets/products.php:168
+msgid "Pagination"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:55
+msgid "Deal Carousel"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:122
+#: modules/carousel/widgets/destination-carousel.php:137
+#: modules/carousel/widgets/hero-carousel.php:133
+#: modules/destination/widgets/destination.php:104
+#: modules/destination/widgets/destination.php:116
+#: modules/destination/widgets/destination.php:205
+#: modules/parallax-banner/widgets/parallax-banner.php:250
+#: modules/posts/traits/button-widget-trait.php:95
+#: modules/team-member/widgets/team-member.php:151
+#: modules/video/skins/skin-video.php:123
+msgid "https://your-link.com"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:153
+#: modules/carousel/widgets/deal-carousel.php:282
+msgid "Image"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:161
+msgid "Image CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:163
+#: modules/carousel/widgets/deal-carousel.php:172
+#: modules/carousel/widgets/deal-carousel.php:229
+#: modules/carousel/widgets/deal-carousel.php:264
+#: modules/carousel/widgets/destination-carousel.php:174
+#: modules/carousel/widgets/destination-carousel.php:185
+#: modules/carousel/widgets/destination-carousel.php:196
+#: modules/carousel/widgets/hero-carousel.php:154
+#: modules/carousel/widgets/testimonial-carousel.php:159
+msgid "Add your custom class for text without the dot. e.g: my-class"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:170
+msgid "Anchor Tag CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:182
+#: modules/posts/traits/button-widget-trait.php:46
+msgid "Text"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:190
+#: modules/destination/widgets/destination.php:252
+#: modules/highlighted-heading/widgets/highlighted-heading.php:212
+#: modules/parallax-banner/widgets/parallax-banner.php:328
+#: modules/team-member/widgets/team-member.php:281
+msgid "Title Color"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:204
+msgid "Hover Color"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:227
+#: modules/carousel/widgets/destination-carousel.php:183
+#: modules/icon-box/skins/skin-icon-box-v1.php:235
+#: modules/icon-box/skins/skin-icon-box-v2.php:155
+msgid "Title CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:237
+msgid "Excerpt Color"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:262
+msgid "Excerpt CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:299
+#: modules/carousel/widgets/destination-carousel.php:112
+#: modules/destination/widgets/destination.php:68
+#: modules/destination/widgets/destination.php:75
+#: modules/destination/widgets/destination.php:244
+#: modules/highlighted-heading/widgets/highlighted-heading.php:68
+#: modules/highlighted-heading/widgets/highlighted-heading.php:204
+#: modules/parallax-banner/widgets/parallax-banner.php:101
+#: modules/parallax-banner/widgets/parallax-banner.php:319
+#: modules/query-control/controls/group-control-query.php:382
+#: modules/woocommerce/widgets/products.php:88
+msgid "Title"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:304
+#: modules/carousel/widgets/deal-carousel.php:318
+#: modules/destination/widgets/destination.php:80
+#: modules/highlighted-heading/widgets/highlighted-heading.php:80
+#: modules/highlighted-heading/widgets/highlighted-heading.php:109
+msgid "Enter your title"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:305
+#: modules/carousel/widgets/deal-carousel.php:319
+#: modules/destination/widgets/destination.php:82
+#: modules/highlighted-heading/widgets/highlighted-heading.php:82
+#: modules/highlighted-heading/widgets/highlighted-heading.php:110
+msgid "Use <br> to break into two lines"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:313
+#: modules/carousel/widgets/destination-carousel.php:122
+#: modules/parallax-banner/widgets/parallax-banner.php:126
+#: modules/parallax-banner/widgets/parallax-banner.php:359
+msgid "Description"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:338
+msgid "Earning Asiana Club Miles Just Got Easier! "
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:339
+msgid "Book Hotels and Earn Asiana Club Miles!"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:345
+msgid "Save big on hotels!"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:346
+msgid "Book and save with Trip.com on your next stay"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:352
+msgid "Experience Europe Your Way"
+msgstr ""
+
+#: modules/carousel/widgets/deal-carousel.php:353
+msgid "With up to 30% Off, experience Europe your way!"
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:51
+msgid "Destination Carousel"
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:92
+#: modules/carousel/widgets/hero-carousel.php:92
+#: modules/destination/widgets/destination.php:184
+msgid "Backround Image"
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:153
+#: modules/carousel/widgets/hero-carousel.php:144
+#: modules/destination/widgets/destination.php:336
+#: modules/parallax-banner/widgets/parallax-banner.php:79
+#: modules/parallax-banner/widgets/parallax-banner.php:274
+#: modules/team-member/widgets/team-member.php:262
+#: modules/woocommerce/widgets/products.php:132
+msgid "Content"
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:172
+#: modules/carousel/widgets/hero-carousel.php:152
+#: modules/icon-box/skins/skin-icon-box-v1.php:145
+#: modules/icon-box/skins/skin-icon-box-v2.php:109
+msgid "Wrap CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:175
+#: modules/carousel/widgets/hero-carousel.php:155
+msgid "This setting is allows to you add class for bg-image <div> tag."
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:186
+msgid "This setting is allows to you add class for bg-image <a> tag."
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:194
+#: modules/icon-box/skins/skin-icon-box-v1.php:261
+msgid "Description CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:197
+msgid "This setting is allows to you add class for bg-image <p> tag."
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:218
+#: modules/carousel/widgets/destination-carousel.php:226
+#: modules/carousel/widgets/destination-carousel.php:234
+#: modules/carousel/widgets/hero-carousel.php:176
+#: modules/carousel/widgets/hero-carousel.php:183
+#: modules/carousel/widgets/hero-carousel.php:190
+msgid "United States "
+msgstr ""
+
+#: modules/carousel/widgets/destination-carousel.php:219
+#: modules/carousel/widgets/destination-carousel.php:227
+#: modules/carousel/widgets/destination-carousel.php:235
+#: modules/carousel/widgets/hero-carousel.php:177
+#: modules/carousel/widgets/hero-carousel.php:184
+#: modules/carousel/widgets/hero-carousel.php:191
+msgid "£99 / night average"
+msgstr ""
+
+#: modules/carousel/widgets/hero-carousel.php:51
+msgid "Hero Carousel"
+msgstr ""
+
+#: modules/carousel/widgets/product-carousel.php:62
+msgid "Product Carousel"
+msgstr ""
+
+#: modules/carousel/widgets/product-carousel.php:185
+msgid "Product"
+msgstr ""
+
+#: modules/carousel/widgets/product-carousel.php:193
+msgid "Products Per Page"
+msgstr ""
+
+#: modules/carousel/widgets/product-carousel.php:204
+#: modules/posts/widgets/posts.php:138 modules/posts/widgets/products.php:184
+#: modules/woocommerce/widgets/products.php:62
+msgid "Query"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:50
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:102
+#: modules/carousel/widgets/testimonial-carousel.php:184
+msgid "Blockquote"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:112
+msgid "Avatar"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:123
+#: modules/team-member/widgets/team-member.php:107
+msgid "Name"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:133
+msgid "Role"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:157
+msgid "Blockquote Text CSS Class"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:193
+msgid "Blockquote Text"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:237
+#: modules/carousel/widgets/testimonial-carousel.php:245
+#: modules/carousel/widgets/testimonial-carousel.php:253
+msgid ""
+"This is the 3rd time I’ve used Travelo website and telling you the truth "
+"their services are always realiable and it only takes few minutes to plan "
+"and finalize"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:241
+msgid "Ali Tufan "
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:242
+#: modules/carousel/widgets/testimonial-carousel.php:250
+#: modules/carousel/widgets/testimonial-carousel.php:258
+msgid "client"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:249
+msgid "Augusta Silva"
+msgstr ""
+
+#: modules/carousel/widgets/testimonial-carousel.php:257
+msgid "Jessica Brown"
+msgstr ""
+
+#: modules/column/module.php:55
+msgid "Widget Wrapper"
+msgstr ""
+
+#: modules/column/module.php:64
+msgid "Max Width"
+msgstr ""
+
+#: modules/column/module.php:90
+msgid "Applied to elementor-widget-wrap element."
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:41
+msgid "Skin-v1"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:99
+#: modules/counter/skins/counter-skin.php:116
+#: modules/nav-tabs/widgets/nav-tabs.php:119
+#: modules/posts/traits/button-widget-trait.php:147
+#: modules/team-member/widgets/team-member.php:197
+#: modules/video/skins/skin-video.php:109
+#: modules/video/skins/skin-video.php:186
+msgid "Icon"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:124
+#: modules/nav-tabs/widgets/nav-tabs.php:239
+msgid "Icon Color"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:140
+msgid "Counter"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:162
+msgid "Counter CSS Classes"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:165
+msgid "Added to <h5> tag"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:186
+msgid "Title CSS Classes"
+msgstr ""
+
+#: modules/counter/skins/counter-skin.php:189
+msgid "Added to <p> tag"
+msgstr ""
+
+#: modules/custom-attributes/module.php:93
+msgid "Attributes"
+msgstr ""
+
+#: modules/custom-attributes/module.php:101
+msgid "Custom Attributes"
+msgstr ""
+
+#: modules/custom-attributes/module.php:106
+#. translators: %s: search term
+msgid "key|value"
+msgstr ""
+
+#: modules/custom-attributes/module.php:107
+msgid ""
+"Set custom attributes for the wrapper element. Each attribute in a separate "
+"line. Separate attribute key from the value using %s character."
+msgstr ""
+
+#: modules/custom-css/module.php:126 modules/custom-css/module.php:143
+#: modules/custom-css/module.php:169
+msgid "Custom CSS"
+msgstr ""
+
+#: modules/custom-css/module.php:134
+msgid "Add your own custom CSS here"
+msgstr ""
+
+#: modules/custom-css/module.php:154
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:38
+msgid "Destination"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:90
+msgid "Product Name"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:92
+msgid "Product title is  apply to the style-v3"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:114
+msgid "Product Link"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:129
+#: modules/highlighted-heading/widgets/highlighted-heading.php:151
+msgid "HTML Tag"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:154
+msgid "Enable Dropdown ?"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:194
+#: modules/destination/widgets/destination.php:196
+msgid "Dropdown Item"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:203
+msgid "Item Link"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:215
+msgid "Dropdown List"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:220
+msgid "30 Hotel"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:223
+msgid "48 Tours"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:226
+msgid "46 Activity"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:229
+msgid "32 Yacht"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:280
+msgid "Lists"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:291
+msgid "List Color"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:308
+msgid "Dropdown Hover Color"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:344
+msgid "Pill Background Color"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:361
+msgid "Pill Text Color"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:378
+msgid "Wrap CSS"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:380
+msgid ""
+"Wrap CSS classes separated by space that you'd like to apply to the "
+"destination class wrap"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:387
+msgid "Content Wrap CSS"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:389
+msgid ""
+"Content Wrap CSS classes separated by space that you'd like to apply to the "
+"destination-content class wrap"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:396
+msgid "Title Wrap CSS"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:398
+msgid ""
+"<div> Tag CSS classes separated by space that you'd like to apply to the "
+"title wrap"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:408
+msgid "Title CSS"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:410
+#: modules/highlighted-heading/widgets/highlighted-heading.php:239
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the "
+"title"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:417
+#: modules/highlighted-heading/widgets/highlighted-heading.php:237
+msgid "Additional CSS"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:419
+msgid ""
+"<div> Tag CSS classes separated by space that you'd like to apply to the "
+"Product name top wrap"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:429
+msgid "Anchor CSS"
+msgstr ""
+
+#: modules/destination/widgets/destination.php:431
+msgid ""
+"Anchor CSS classes separated by space that you'd like to apply to the "
+"destination-style-v3 class"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:38
+msgid "Highlighted Heading"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:75
+msgid "Before Highlighted Text"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:90
+#: modules/highlighted-heading/widgets/highlighted-heading.php:248
+msgid "Highlighted Text"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:103
+msgid "After Highlighted Text"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:133
+msgid "Anchor Tag CSS"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:135
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the "
+"<a> tag"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:172
+#: modules/posts/traits/button-widget-trait.php:106
+#: modules/posts/widgets/posts-base.php:339
+msgid "Alignment"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:176
+#: modules/posts/traits/button-widget-trait.php:110
+#: modules/posts/widgets/posts-base.php:343
+msgid "Left"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:180
+#: modules/posts/traits/button-widget-trait.php:114
+#: modules/posts/widgets/posts-base.php:347
+msgid "Center"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:184
+#: modules/posts/traits/button-widget-trait.php:118
+#: modules/posts/widgets/posts-base.php:351
+msgid "Right"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:188
+#: modules/posts/traits/button-widget-trait.php:122
+#: modules/posts/widgets/posts-base.php:355
+msgid "Justified"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:256
+msgid "Highlight Color"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:281
+msgid "Highlighted CSS"
+msgstr ""
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:283
+#: modules/section/module.php:121
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the "
+"highlighted text"
+msgstr ""
+
+#: modules/icon-box/skins/skin-icon-box-v1.php:54
+#: modules/image/skins/skin-image-v1.php:78
+msgid "Style 1"
+msgstr ""
+
+#: modules/icon-box/skins/skin-icon-box-v1.php:120
+#: modules/parallax-banner/widgets/parallax-banner.php:86
+msgid "Background Image"
+msgstr ""
+
+#: modules/icon-box/skins/skin-icon-box-v1.php:147
+#: modules/icon-box/skins/skin-icon-box-v1.php:166
+#: modules/icon-box/skins/skin-icon-box-v1.php:237
+#: modules/icon-box/skins/skin-icon-box-v1.php:263
+#: modules/icon-box/skins/skin-icon-box-v2.php:111
+#: modules/icon-box/skins/skin-icon-box-v2.php:130
+#: modules/icon-box/skins/skin-icon-box-v2.php:157
+#: modules/posts/widgets/posts.php:126
+msgid "Enter your class"
+msgstr ""
+
+#: modules/icon-box/skins/skin-icon-box-v1.php:148
+#: modules/icon-box/skins/skin-icon-box-v2.php:112
+msgid ""
+"Wrap CSS classes separated by space that you'd like to apply to the "
+"backround image class <div> tag."
+msgstr ""
+
+#: modules/icon-box/skins/skin-icon-box-v1.php:164
+#: modules/icon-box/skins/skin-icon-box-v2.php:128
+msgid "Icon CSS Class"
+msgstr ""
+
+#: modules/icon-box/skins/skin-icon-box-v2.php:52
+msgid "Style 2"
+msgstr ""
+
+#: modules/image/module.php:69 modules/team-member/widgets/team-member.php:97
+msgid "Image Class"
+msgstr ""
+
+#: modules/image/module.php:71
+msgid "Add your custom class for <img> tag  without the dot. e.g: my-class"
+msgstr ""
+
+#: modules/image/module.php:74
+msgid "Additional CSS class that you want to apply to the img tag"
+msgstr ""
+
+#: modules/map/skins/skin-map-mytravel.php:36
+msgid "Map Mytravel"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:55
+msgid "Mytravel Nav Menu"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:165
+msgid "Nav Menu"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:175
+msgid "Menu"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:181
+#. translators: %1$s: Link to Menu Link.
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your "
+"menus."
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:189
+msgid "There are no menus in your site."
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:189
+#. translators: %1$s: Link to Menu Link.
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:199
+#: modules/posts/widgets/posts-base.php:656 modules/posts/widgets/posts.php:92
+#: modules/posts/widgets/products.php:116
+msgid "Layout"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:208
+msgid "Inline"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:220
+msgid "Wrappers"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:228
+msgid "Menu Item Wrap"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:237
+msgid "Menu Item Class"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:246
+msgid "Anchor Class"
+msgstr ""
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:40
+msgid "Nav Tabs v1"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:37
+msgid "Nav Tabs"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:77
+msgid "Nav Tabs List"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:86
+#: modules/nav-tabs/widgets/nav-tabs.php:88
+#: modules/nav-tabs/widgets/nav-tabs.php:89
+msgid "List Item"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:96
+msgid "Tab Content ID"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:98
+msgid "Tab Content Id"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:106
+msgid "Enable Icons ?"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:127
+msgid "Nav List"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:135
+msgid "Tours"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:151
+msgid "Tabs Style"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:157
+msgid "Rounded Icon"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:158
+msgid "Boxed"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:160
+msgid "Shadow"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:161
+msgid "Line"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:180
+#: modules/posts/skins/skin-post-list.php:31
+msgid "List"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:220
+msgid "Text Active Color"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:255
+msgid "Nav CSS Classes"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:258
+msgid "Added to <ul> tag"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:265
+#: modules/video/skins/skin-video.php:205
+msgid "Anchor CSS Classes"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:268
+#: modules/video/skins/skin-video.php:208
+msgid "Added to <a> tag"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:275
+msgid "Text Wrap CSS Classes"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:278
+msgid "Added to <div> tag"
+msgstr ""
+
+#: modules/nav-tabs/widgets/nav-tabs.php:288
+#: modules/video/skins/skin-video.php:218
+msgid "Added to <span> tag"
+msgstr ""
+
+#: modules/page-settings/module.php:75
+msgid "Enable Overflow?"
+msgstr ""
+
+#: modules/page-settings/module.php:287
+msgid "Body Classes"
+msgstr ""
+
+#: modules/page-settings/module.php:321
+msgid "Headers"
+msgstr ""
+
+#: modules/page-settings/module.php:329
+msgid "Custom Header"
+msgstr ""
+
+#: modules/page-settings/module.php:332 modules/page-settings/module.php:394
+#: modules/page-settings/module.php:424 modules/page-settings/module.php:443
+#: modules/page-settings/module.php:485 modules/page-settings/module.php:515
+#: modules/page-settings/module.php:565 modules/page-settings/module.php:613
+#: modules/page-settings/module.php:635 modules/page-settings/module.php:650
+#: modules/page-settings/module.php:664 modules/page-settings/module.php:992
+msgid "Enable"
+msgstr ""
+
+#: modules/page-settings/module.php:333 modules/page-settings/module.php:395
+#: modules/page-settings/module.php:425 modules/page-settings/module.php:444
+#: modules/page-settings/module.php:486 modules/page-settings/module.php:516
+#: modules/page-settings/module.php:566 modules/page-settings/module.php:614
+#: modules/page-settings/module.php:636 modules/page-settings/module.php:651
+#: modules/page-settings/module.php:665 modules/page-settings/module.php:993
+msgid "Disable"
+msgstr ""
+
+#: modules/page-settings/module.php:340
+msgid "Header Variant"
+msgstr ""
+
+#: modules/page-settings/module.php:343
+msgid "Header v1"
+msgstr ""
+
+#: modules/page-settings/module.php:344
+msgid "Header v2"
+msgstr ""
+
+#: modules/page-settings/module.php:345
+msgid "Header v3"
+msgstr ""
+
+#: modules/page-settings/module.php:346
+msgid "Header v4"
+msgstr ""
+
+#: modules/page-settings/module.php:347
+msgid "Header v5"
+msgstr ""
+
+#: modules/page-settings/module.php:348
+msgid "Header v6"
+msgstr ""
+
+#: modules/page-settings/module.php:349
+msgid "Header v7"
+msgstr ""
+
+#: modules/page-settings/module.php:361
+msgid "Container CSS"
+msgstr ""
+
+#: modules/page-settings/module.php:378
+msgid "Site Title"
+msgstr ""
+
+#: modules/page-settings/module.php:381
+msgid "Site title applies only when custom logo or transparent logo is enabled"
+msgstr ""
+
+#: modules/page-settings/module.php:391
+msgid "Enable Custom Logo?"
+msgstr ""
+
+#: modules/page-settings/module.php:405
+msgid "Upload Logo"
+msgstr ""
+
+#: modules/page-settings/module.php:421
+msgid "Enable Transparent Header ?"
+msgstr ""
+
+#: modules/page-settings/module.php:440
+msgid "Enable Transparent Logo ?"
+msgstr ""
+
+#: modules/page-settings/module.php:460
+msgid "Upload Tranparent Logo"
+msgstr ""
+
+#: modules/page-settings/module.php:482
+msgid "Enable Sticky Header ?"
+msgstr ""
+
+#: modules/page-settings/module.php:496
+msgid "Upload Sticky Logo"
+msgstr ""
+
+#: modules/page-settings/module.php:512
+msgid "Enable Top Navbar ?"
+msgstr ""
+
+#: modules/page-settings/module.php:531
+msgid "Topbar Skin"
+msgstr ""
+
+#: modules/page-settings/module.php:544 modules/page-settings/module.php:595
+msgid "Violet"
+msgstr ""
+
+#: modules/page-settings/module.php:545 modules/page-settings/module.php:596
+msgid "Gray"
+msgstr ""
+
+#: modules/page-settings/module.php:562
+msgid "Enable Language Dropdown ?"
+msgstr ""
+
+#: modules/page-settings/module.php:582
+msgid "Navbar Skin"
+msgstr ""
+
+#: modules/page-settings/module.php:610
+msgid "Enable Search ?"
+msgstr ""
+
+#: modules/page-settings/module.php:632
+msgid "Enable Minicart ?"
+msgstr ""
+
+#: modules/page-settings/module.php:647
+msgid "Enable Signin ?"
+msgstr ""
+
+#: modules/page-settings/module.php:661
+msgid "Enable Navbar Button ?"
+msgstr ""
+
+#: modules/page-settings/module.php:679
+msgid "Button Color"
+msgstr ""
+
+#: modules/page-settings/module.php:691 modules/page-settings/module.php:837
+#: modules/search/widgets/search.php:172
+msgid "Purple"
+msgstr ""
+
+#: modules/page-settings/module.php:707
+#: modules/parallax-banner/widgets/parallax-banner.php:173
+#: modules/posts/widgets/posts-base.php:307
+#: modules/search/widgets/search.php:151
+msgid "Button Text"
+msgstr ""
+
+#: modules/page-settings/module.php:709
+msgid "Become Local Expert"
+msgstr ""
+
+#: modules/page-settings/module.php:724
+msgid "Button Link"
+msgstr ""
+
+#: modules/page-settings/module.php:741
+msgid "Button Size"
+msgstr ""
+
+#: modules/page-settings/module.php:745 modules/page-settings/module.php:882
+msgid "Normal Wide"
+msgstr ""
+
+#: modules/page-settings/module.php:746 modules/page-settings/module.php:883
+msgid "Medium Wide"
+msgstr ""
+
+#: modules/page-settings/module.php:764
+msgid "Button Shape"
+msgstr ""
+
+#: modules/page-settings/module.php:768 modules/page-settings/module.php:909
+msgid "Rounded-xs"
+msgstr ""
+
+#: modules/page-settings/module.php:769 modules/page-settings/module.php:910
+msgid "Rounded-sm"
+msgstr ""
+
+#: modules/page-settings/module.php:786
+msgid "Button Variant"
+msgstr ""
+
+#: modules/page-settings/module.php:808
+#: modules/parallax-banner/widgets/parallax-banner.php:414
+#: modules/posts/traits/button-widget-trait.php:213
+#: modules/search/widgets/search.php:180
+msgid "Button CSS"
+msgstr ""
+
+#: modules/page-settings/module.php:825
+msgid "Signin Button Color"
+msgstr ""
+
+#: modules/page-settings/module.php:857
+msgid "Signin Button Link"
+msgstr ""
+
+#: modules/page-settings/module.php:878
+msgid "Signin Button Size"
+msgstr ""
+
+#: modules/page-settings/module.php:905
+msgid "Signin Button Shape"
+msgstr ""
+
+#: modules/page-settings/module.php:931
+msgid "Signin Button Variant"
+msgstr ""
+
+#: modules/page-settings/module.php:957
+msgid "Signin Button CSS"
+msgstr ""
+
+#: modules/page-settings/module.php:981
+msgid "Footer"
+msgstr ""
+
+#: modules/page-settings/module.php:989
+msgid "Custom Footer"
+msgstr ""
+
+#: modules/page-settings/module.php:1000
+msgid "Footer Variant"
+msgstr ""
+
+#: modules/page-settings/module.php:1003
+msgid "Footer v1"
+msgstr ""
+
+#: modules/page-settings/module.php:1004
+msgid "Footer v2"
+msgstr ""
+
+#: modules/page-settings/module.php:1005
+msgid "Static Footer"
+msgstr ""
+
+#: modules/page-settings/module.php:1018
+msgid "Footer Static Widgets"
+msgstr ""
+
+#: modules/page-settings/module.php:1033
+msgid "Upload Credit Card Image"
+msgstr ""
+
+#: modules/page-settings/module.php:1050
+msgid "Copyright Text"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:48
+msgid "Parallax Banner"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:103
+msgid "Airbnb plus places to stay"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:128
+msgid "A selection of places to stay verified for quality and design"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:135
+msgid "Description HTML Tag"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:152
+msgid "Show Button"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:175
+msgid "Explore Stays"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:176
+#: modules/posts/traits/button-widget-trait.php:45
+msgid "Click here"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:260
+#: modules/posts/traits/button-widget-trait.php:224
+msgid "Button ID"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:262
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page   this "
+"form is displayed. This field allows A-z 0-9 & underscore chars without "
+"spaces."
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:282
+msgid "Wraps"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:290
+msgid "BG Image Class"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:292
+msgid "Add your custom class for parallax. e.g: bg-hero"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:299
+msgid "Wrap"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:301
+#: modules/parallax-banner/widgets/parallax-banner.php:311
+msgid "Add your custom class for parallax. e.g: container,text-center"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:309
+msgid "Spacing Wrap"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:350
+#: modules/team-member/widgets/team-member.php:271
+msgid "Title Class"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:368
+msgid "Description Color"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:390
+msgid "Descripton Class"
+msgstr ""
+
+#: modules/parallax-banner/widgets/parallax-banner.php:416
+msgid "Add your custom class for button. e.g: card-active"
+msgstr ""
+
+#: modules/posts/data/controller.php:43
+msgid "Document doesn't exist"
+msgstr ""
+
+#: modules/posts/data/controller.php:54
+msgid "Posts widget doesn't exist"
+msgstr ""
+
+#: modules/posts/skins/skin-base.php:61
+#: modules/posts/skins/skin-product-base.php:57
+#: modules/posts/widgets/products.php:124
+#: modules/query-control/controls/group-control-query.php:406
+msgid "Posts Per Page"
+msgstr ""
+
+#: modules/posts/skins/skin-base.php:225
+msgid "Page"
+msgstr ""
+
+#: modules/posts/skins/skin-post-grid.php:31
+msgid "Grid"
+msgstr ""
+
+#: modules/posts/skins/skin-product-base.php:161
+msgid "Showing the single result"
+msgstr ""
+
+#: modules/posts/skins/skin-product-base.php:164
+#. translators: %d: total results
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/posts/skins/skin-products-style-1.php:88
+#: modules/posts/skins/skin-products-style-2.php:88
+#: modules/posts/skins/skin-products-style-3.php:88
+#: modules/posts/skins/skin-products-style-4.php:88
+#: modules/posts/skins/skin-products-style-5.php:87
+#: modules/posts/skins/skin-products-style-6.php:87
+msgid "No Products Found"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:31
+msgid "Medium"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:33
+msgid "Extra Large"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:160
+msgid "Icon Position"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:164
+#: modules/query-control/controls/group-control-query.php:343
+msgid "Before"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:165
+#: modules/query-control/controls/group-control-query.php:360
+msgid "After"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:174
+msgid "Icon Spacing"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:192
+msgid "View"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:202
+msgid "Button Wrapper CSS"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:205
+msgid "Additional CSS to be applied to .btn-wrapper element."
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:216
+msgid "Additional CSS to be applied to .btn element."
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:230
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:231
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows `A-z 0-9` & underscore chars without "
+"spaces."
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:303
+#: modules/posts/traits/button-widget-trait.php:348
+#: modules/section/module.php:98
+msgid "Background"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:402
+#: modules/posts/widgets/posts-base.php:606
+msgid "Border Radius"
+msgstr ""
+
+#: modules/posts/traits/button-widget-trait.php:424
+msgid "Padding"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:100
+#: modules/posts/widgets/posts-base.php:112
+#: modules/posts/widgets/posts-base.php:324
+msgid "No More Posts Message"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:146
+msgid "Spinner Color"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:162
+#: modules/posts/widgets/posts-base.php:532
+msgid "Spacing"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:195
+#: modules/query-control/controls/group-control-related.php:70
+msgid "None"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:196
+#: modules/posts/widgets/posts-base.php:198
+msgid "Numbers"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:197
+#: modules/posts/widgets/posts-base.php:198
+msgid "Previous/Next"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:199
+msgid "Load on Click"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:200
+msgid "Infinite Scroll"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:208
+msgid "Page Limit"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:219
+msgid "Shorten"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:234
+msgid "Previous Label"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:235
+msgid "&laquo; Previous"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:248
+msgid "Next Label"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:249
+msgid "Next &raquo;"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:262
+msgid "Spinner"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:306
+msgid "Load More"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:374
+msgid "Custom Messages"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:389
+msgid "No more posts message"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:391
+msgid "No more posts to show"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:430
+msgid "Colors"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:484
+msgid "Active"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:507
+msgid "Space Between"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:549
+msgid "Border"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:576
+msgid "Active Border Color"
+msgstr ""
+
+#: modules/posts/widgets/posts-base.php:591
+msgid "Active Background Color"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:31
+msgid "Posts"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:100 modules/posts/widgets/products.php:133
+#: modules/woocommerce/widgets/products.php:139
+msgid "Columns"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:124
+msgid "Post Additional Class"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:127
+msgid ""
+"Wrap CSS classes separated by space that you'd like to apply to the post "
+"list class <div> tag."
+msgstr ""
+
+#: modules/posts/widgets/products.php:49
+#: modules/woocommerce/widgets/products.php:37
+msgid "Products"
+msgstr ""
+
+#: modules/posts/widgets/products.php:155
+msgid "Enable Shop Control Bar ?"
+msgstr ""
+
+#: modules/posts/widgets/products.php:169
+msgid "Enable Sorting ?"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:84
+#: modules/query-control/controls/group-control-query.php:81
+msgid "Source"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:89
+#: modules/query-control/controls/group-control-query.php:110
+#: modules/query-control/controls/group-control-query.php:223
+#: modules/query-control/controls/group-control-related.php:83
+#: modules/query-control/module.php:121
+msgid "Search & Select"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:103
+#: modules/query-control/controls/group-control-query.php:131
+#: modules/query-control/controls/group-control-query.php:168
+#: modules/query-control/controls/group-control-query.php:209
+#: modules/query-control/controls/group-control-query.php:267
+msgid "Author"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:141
+#: modules/query-control/controls/group-control-query.php:84
+#: modules/query-control/controls/group-control-query.php:207
+#: modules/query-control/controls/group-control-related.php:71
+#: modules/query-control/module.php:112
+#: modules/woocommerce/widgets/products.php:99
+msgid "Manual Selection"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:142
+#: modules/query-control/controls/group-control-query.php:85
+#: modules/woocommerce/widgets/products.php:77
+msgid "Current Query"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:99
+msgid "Include"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:126
+msgid "Include By"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:130
+#: modules/query-control/controls/group-control-query.php:145
+#: modules/query-control/controls/group-control-query.php:208
+#: modules/query-control/controls/group-control-query.php:244
+#: modules/query-control/controls/group-control-related.php:51
+#: modules/woocommerce/widgets/products.php:100
+#: modules/woocommerce/widgets/products.php:105
+msgid "Term"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:146
+msgid ""
+"Terms are items in a taxonomy. The available taxonomies are: Categories, "
+"Tags, Formats and custom taxonomies."
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:191
+#: modules/query-control/module.php:107
+msgid "Exclude"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:202
+msgid "Exclude By"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:206
+#: modules/query-control/module.php:111
+#: modules/woocommerce/widgets/products.php:98
+msgid "Current Post"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:289
+#: modules/query-control/module.php:138
+msgid "Avoid Duplicates"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:292
+msgid ""
+"Set to Yes to avoid duplicate posts from showing up. This only effects the "
+"frontend."
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:304
+msgid "Offset"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:313
+msgid "Use this setting to skip over posts (e.g. '2' to skip over 2 posts)."
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:319
+#: modules/query-control/controls/group-control-query.php:381
+#: modules/woocommerce/widgets/products.php:87
+msgid "Date"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:323
+#: modules/query-control/module.php:1185
+msgid "All"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:324
+msgid "Past Day"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:325
+msgid "Past Week"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:326
+msgid "Past Month"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:327
+msgid "Past Quarter"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:328
+msgid "Past Year"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:329
+msgid "Custom"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:348
+#: modules/query-control/controls/group-control-query.php:365
+msgid "Choose"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:356
+msgid ""
+"Setting a ‘Before’ date will show all the posts published until the chosen "
+"date (inclusive)."
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:373
+msgid ""
+"Setting an ‘After’ date will show all the posts published since the chosen "
+"date (inclusive)."
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:377
+msgid "Order By"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:383
+msgid "ID"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:384
+#: modules/woocommerce/widgets/products.php:93
+msgid "Menu Order"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:385
+#: modules/woocommerce/widgets/products.php:92
+msgid "Random"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:393
+msgid "Order"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:397
+msgid "ASC"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:398
+msgid "DESC"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:415
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:421
+msgid "Sticky-posts ordering is visible on frontend only"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:425
+msgid "Query ID"
+msgstr ""
+
+#: modules/query-control/controls/group-control-query.php:428
+msgid "Give your Query a custom unique id to allow server side filtering"
+msgstr ""
+
+#: modules/query-control/controls/group-control-related.php:42
+msgid "Related"
+msgstr ""
+
+#: modules/query-control/controls/group-control-related.php:67
+msgid "Fallback"
+msgstr ""
+
+#: modules/query-control/controls/group-control-related.php:72
+msgid "Recent Posts"
+msgstr ""
+
+#: modules/query-control/controls/group-control-related.php:75
+msgid ""
+"Displayed if no relevant results are found. Manual selection display order "
+"is random"
+msgstr ""
+
+#: modules/query-control/module.php:141
+msgid ""
+"Set to Yes to avoid duplicate posts from showing up on the page. This only "
+"affects the frontend."
+msgstr ""
+
+#: modules/search/widgets/search.php:32 modules/search/widgets/search.php:67
+#: modules/search/widgets/search.php:153
+msgid "Search"
+msgstr ""
+
+#: modules/search/widgets/search.php:51
+msgid "Search Form"
+msgstr ""
+
+#: modules/search/widgets/search.php:78
+msgid "Enable Destination"
+msgstr ""
+
+#: modules/search/widgets/search.php:88
+msgid "Destination Label"
+msgstr ""
+
+#: modules/search/widgets/search.php:90
+msgid "Destination or Hotel Name"
+msgstr ""
+
+#: modules/search/widgets/search.php:100
+msgid "Enable Date Picker"
+msgstr ""
+
+#: modules/search/widgets/search.php:112
+msgid "Date Picker Label"
+msgstr ""
+
+#: modules/search/widgets/search.php:114
+msgid "Check In - Out"
+msgstr ""
+
+#: modules/search/widgets/search.php:125
+msgid "Enable Rooms Vacancy"
+msgstr ""
+
+#: modules/search/widgets/search.php:138
+msgid "Room Vacancy Label"
+msgstr ""
+
+#: modules/search/widgets/search.php:140
+msgid "Rooms and Guests"
+msgstr ""
+
+#: modules/section/module.php:58
+msgid "Container CSS Classes"
+msgstr ""
+
+#: modules/section/module.php:61
+msgid ""
+"Applied to elementor-container element. You can use additional bootstrap "
+"utility classes here."
+msgstr ""
+
+#: modules/section/module.php:77 modules/section/module.php:111
+msgid "Parallax"
+msgstr ""
+
+#: modules/section/module.php:85
+msgid "Enable Parallax"
+msgstr ""
+
+#: modules/section/module.php:87
+msgid "Enable Parallax."
+msgstr ""
+
+#: modules/section/module.php:88
+msgid "Yes"
+msgstr ""
+
+#: modules/section/module.php:89
+msgid "No"
+msgstr ""
+
+#: modules/section/module.php:119
+msgid "Parallax CSS"
+msgstr ""
+
+#: modules/section/module.php:129
+msgid "Parallax Background Image Height"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:37
+msgid "Team Member"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:76
+msgid "General"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:83
+msgid "Choose Image"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:99
+#: modules/team-member/widgets/team-member.php:142
+#: modules/team-member/widgets/team-member.php:273
+#: modules/team-member/widgets/team-member.php:303
+msgid "Enter Your Class"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:100
+msgid "Additional CSS class that you want to apply to the <img> tag"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:109
+msgid "Author Name"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:116
+#: modules/team-member/widgets/team-member.php:118
+msgid "Position"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:131
+msgid "Social Icon"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:140
+msgid "Social Icon Link Class"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:143
+msgid "Additional CSS class that you want to apply to the <a> tag"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:150
+msgid "Social Icon Link"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:159
+msgid "Social Icons"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:177
+msgid "Image Overlay"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:185
+msgid "Avatar image Hover Color"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:215
+msgid "Social Icon Color"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:226
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:237
+msgid "Social Icon Hover Background Color"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:301
+msgid "Postion Class"
+msgstr ""
+
+#: modules/team-member/widgets/team-member.php:312
+msgid "Byline Color"
+msgstr ""
+
+#: modules/video/skins/skin-video.php:50
+msgid "Video Fancybox"
+msgstr ""
+
+#: modules/video/skins/skin-video.php:121
+msgid "Video Link"
+msgstr ""
+
+#: modules/video/skins/skin-video.php:131
+msgid "Data Speed"
+msgstr ""
+
+#: modules/video/skins/skin-video.php:215
+msgid "Wrap CSS Classes"
+msgstr ""
+
+#: modules/video/skins/skin-video.php:225
+msgid "Icon CSS Classes"
+msgstr ""
+
+#: modules/video/skins/skin-video.php:228
+msgid "Added to icon class <span> tag"
+msgstr ""
+
+#: modules/woocommerce/skins/skin-products-style-1.php:33
+msgid "Style v1"
+msgstr ""
+
+#: modules/woocommerce/skins/skin-products-style-2.php:32
+msgid "Style v2"
+msgstr ""
+
+#: modules/woocommerce/skins/skin-products-style-3.php:33
+msgid "Style v3"
+msgstr ""
+
+#: modules/woocommerce/skins/skin-products-style-4.php:33
+msgid "Style v4"
+msgstr ""
+
+#: modules/woocommerce/skins/skin-products-style-5.php:33
+msgid "Style v5"
+msgstr ""
+
+#: modules/woocommerce/skins/skin-products-style-6.php:33
+msgid "Style v6"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:78
+msgid "Latest Products"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:79
+msgid "Sale"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:80
+msgid "Featured"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:89
+msgid "Price"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:90
+msgid "Popularity"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:91
+msgid "Rating"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:153
+msgid "Rows"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:180
+msgid "Allow Order"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:193
+msgid ""
+"Ordering is not available if this widget is placed in your front page. "
+"Visible on frontend only."
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:205
+msgid "Show Result Count"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:217
+msgid "Show Sidebar Toggle"
+msgstr ""
+
+#: mytravel-elementor.php:86
+msgid ""
+"My Travel Elementor is not working because you need to activate the "
+"Elementor plugin."
+msgstr ""
+
+#: mytravel-elementor.php:87
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: mytravel-elementor.php:95
+msgid ""
+"My Travel Elementor is not working because you need to install the "
+"Elementor plugin."
+msgstr ""
+
+#: mytravel-elementor.php:96
+msgid "Install Elementor Now"
+msgstr ""
+
+#: mytravel-elementor.php:112
+msgid ""
+"My Travel Elementor is not working because you are using an old version of "
+"Elementor."
+msgstr ""
+
+#: mytravel-elementor.php:113 mytravel-elementor.php:130
+msgid "Update Elementor Now"
+msgstr ""
+
+#: mytravel-elementor.php:129
+msgid ""
+"A new version of Elementor is available. For better performance and "
+"compatibility of My Travel Elementor, we recommend updating to the latest "
+"version."
+msgstr ""
+
+#: plugin.php:94 plugin.php:105
+msgid "Something went wrong."
+msgstr ""
+
+#: plugin.php:330
+msgid "Mytravel Elementor"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MyTravel Elementor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themeforest.net/user/madrasthemes/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Elementor Extensions built for Mytravel Multipurpose Business WordPress "
+"Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MadrasThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://madrasthemes.com/"
+msgstr ""
+
+#: core/utils.php:156
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: core/utils.php:163
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: core/utils.php:170
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: core/utils.php:178
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: core/utils.php:180
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: core/utils.php:182
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: core/utils.php:184
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: core/utils.php:186
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: core/utils.php:188
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: core/utils.php:190
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: core/utils.php:192
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: core/utils.php:194
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: modules/posts/skins/skin-product-base.php:169
+#. translators: 1: first result 2: last result 3: total results
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/search/widgets/search.php:498
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: modules/search/widgets/search.php:499
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: modules/woocommerce/widgets/products.php:81
+msgctxt "Posts Query Control"
+msgid "Manual Selection"
+msgstr ""

@@ -1,0 +1,89 @@
+.font-size-regular {
+    font-size: 1rem;
+}
+
+.h-g-primary {
+    color: $gray-1;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+
+ins {
+    text-decoration: none;
+}
+
+.bg-brown {
+   background-color: #f8bd5b;
+}
+
+.border-violet-1 {
+   border-color: #a864a8 !important;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.bg-blue-1 {
+    background-color: #297cbb !important;
+}
+
+.u-slick__arrow-classic:hover {
+    color: #fff !important;
+}
+
+.elementor-button-wrapper {
+    .elementor-button-content-wrapper {
+        .order-2 {
+            order:2 !important;
+        }
+
+        .order-1 {
+            order:1 !important;
+        }
+    }
+}
+
+.elementor-posts--skin-list {
+    img.wp-post-image.rounded-xs {
+        border-radius: 0.188rem !important;
+    }
+}
+
+.row-margin {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+
+}
+
+.wpforms-form .wpforms-submit-container {
+    padding: 0 !important;
+}
+
+.card-img-top {
+  border-top-left-radius: calc(0.3125rem - 1px) !important;
+  border-top-right-radius: calc(0.3125rem - 1px) !important;
+}
+
+.mytravel-tabs-carousel .tab-pane:not(.active) {
+    display: block!important;
+    height: 0!important;
+    overflow: hidden;
+    padding: 0!important;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+
+

@@ -1,0 +1,53 @@
+form.cart {
+	.wapf-wrapper {
+		.wapf-field-input {
+			border-bottom: 2px solid #eaeaea;
+			padding-bottom: 10px;
+		}
+		.wapf-input {
+			border: 0 !important;
+			padding-left: 5px;
+		}
+
+		.wapf-field-label {
+			span {
+				color: #77838f;
+				font-size: 1rem;
+				font-weight: 400;
+				display: block;
+				margin-bottom: 7px;
+			}
+		}
+
+		.wapf-field-row + .wapf-field-row {
+			margin-top: 0.6rem;
+		}
+
+		.wapf-field-group {
+			margin-bottom: 0.2rem;
+		}
+	}
+}
+
+.wapf-field-text.location .wapf-field-input {
+	position: relative;
+	padding-bottom: 18px !important;
+}
+.wapf-field-text.location .wapf-field-input .wapf-input {
+	padding-left: 31px;
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+
+.wapf-field-text.location .wapf-field-input .wapf-input::placeholder {
+	color: #3b444f;
+}
+
+.wapf-field-text.location .wapf-field-input:before {
+	content: "\f122";
+	font-family: Flaticon;
+	position: absolute;
+	font-size: 1.375rem;
+	color: #297cbb;
+	top: -3px;
+}

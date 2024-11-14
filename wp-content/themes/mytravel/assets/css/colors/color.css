@@ -1,0 +1,505 @@
+.wp-block-button.is-style-outline .wp-block-button__link:not(:hover),
+.shop-sidebar .widget.widget_rss ul li a.rsswidget,
+.widget.widget_calendar .wp-calendar-table td#today,
+.u-header__sub-menu .active > .u-header__sub-menu-nav-link,
+.text-blue-1,
+.text-primary,
+.btn-custom-toggle-primary:hover,
+.btn-custom-toggle-white:not(:disabled):not(.disabled):active,
+.btn-custom-toggle-white:not(:disabled):not(.disabled).active,
+.btn-custom-toggle-white:not(:disabled):not(.disabled):active,
+.btn-custom-toggle-white:not(:disabled):not(.disabled).active,
+.btn-soft-primary,
+.btn-soft-primary[href].disabled,
+.btn-soft-primary[href]:disabled,
+.btn-soft-primary[type].disabled,
+.btn-soft-primary[type]:disabled,
+.btn.btn-soft-primary,
+.btn-soft-blue-1,
+.btn-soft-blue-1[href].disabled,
+.btn-soft-blue-1[href]:disabled,
+.btn-soft-blue-1[type].disabled,
+.btn-soft-blue-1[type]:disabled,
+.btn.btn-soft-blue-1,
+.btn-text-primary,
+.btn-text-blue-1,
+.brand-primary, .brand-primary:focus,
+.brand-primary:hover,
+.breadcrumb-item:not(.active):hover,
+.breadcrumb-item:not(.active):hover,
+.card-text-dark:hover,
+.card-btn-arrow,
+.u-sidebar--account__toggle-bg:hover .u-sidebar--account__toggle-text,
+.u-sidebar--account__list-link.active, .u-sidebar--account__list-link:hover,
+.u-sidebar--account__list-link.active .u-sidebar--account__list-icon,
+.u-sidebar--account__list-link:hover .u-sidebar--account__list-icon,
+.dropdown-item:hover,
+.dropdown-item:hover,
+.footer .list-group-item-action:hover,
+.tab-dropdown .dropdown-item:hover,
+.custom-dropdown .dropdown-toggle-collapse[aria-expanded="true"] span,
+.custom-dropdown .dropdown-toggle-collapse[aria-expanded="true"]::before,
+.u-focus-state .input-group-text,
+.u-range-slider-grid .irs-grid-text.current,
+.u-go-to-ver-arrow,
+.u-go-to-modern,
+.u-media-player:hover .u-media-player__icon, .u-media-player:focus .u-media-player__icon,
+.u-media-player__icon--primary,
+.u-video-player__btn:hover .u-video-player__icon,
+.u-video-player__btn:focus .u-video-player__icon,
+.nav-classic .nav-link:hover,
+.nav-classic .nav-link.active,
+.tab-nav-line .nav-link.active .tabtext,
+.tab-nav-shop .nav-link.active,
+.tab-nav-list .nav-link.active i,
+.tab-nav-list .nav-link.active span,
+.tab-nav-1-line .nav-link.active .tabtext,
+.tab-nav-1-shop .nav-link.active,
+.tab-nav-1-list .nav-link.active i, .tab-nav-1-list .nav-link.active span,
+.nav-icon .nav-item.active,
+.u-quantity__arrows-inner:hover,
+.u-slick-bordered-primary .slick-current .card .testimonial-quote i,
+.u-slick__arrow,
+.u-slick__arrow-classic,
+.u-slick__arrow-classic--v2,
+.u-slick--pagination-interactive .slick-center .u-slick--pagination-interactive__title,
+.link__icon,
+.pagination-v2-arrow-color,
+.list-tab .list-link:hover i, .list-tab .list-link:hover span,
+.list-tab .list-link:active i, .list-tab .list-link:active span,
+.u-cubeportfolio .u-cubeportfolio__item.cbp-filter-item-active,
+.u-datatable__thead-icon:hover,
+.u-datepicker .flatpickr-day:focus,
+.u-datepicker .flatpickr-day:hover,
+.u-fileuploader-input__icon,
+.u-summernote-editor .note-btn:focus,
+.u-summernote-editor .note-btn:hover,
+p.stars:hover a:before,
+p.rating-category-stars:hover a:before,
+p.stars.selected a.active:before,
+p.rating-category-stars.selected a.active:before,
+p.stars.selected a:not(.active):before,
+p.rating-category-stars.selected a:not(.active):before,
+.blog-sidebar .widget_rss cite, .widget_rss cite,
+footer .widget > ul a:hover, footer .widget > ul a:focus,
+footer .widget .menu a:hover, footer .widget .menu a:focus,
+.blog-sidebar .widget > ul a:hover, .blog-sidebar .widget > ul a:focus,
+.blog-sidebar .widget .menu a:hover, .blog-sidebar .widget .menu a:focus,
+.shop-sidebar .widget > ul a:hover,
+.shop-sidebar .widget > ul a:focus,
+.shop-sidebar .widget .menu a:hover,
+.shop-sidebar .widget .menu a:focus,
+.widget_calendar .wp-calendar-nav a:hover,
+.card-title.text-dark:hover,
+table.woocommerce-table--order-details .product-name a,
+.btn-link {
+  color: var(--bs-primary) !important; }
+
+.u-datepicker .flatpickr-day.selected,
+.u-datepicker .flatpickr-day.selected:focus.prevMonthDay,
+.u-datepicker .flatpickr-day.selected:focus.nextMonthDay,
+.u-datepicker .flatpickr-day.selected:hover.prevMonthDay,
+.u-datepicker .flatpickr-day.selected:hover.nextMonthDay,
+.btn-outline-primary:not(:hover),
+.wp-block-button.is-style-outline .wp-block-button__link,
+.u-header--dark-nav-links-xl:not(.bg-dark) .u-header__nav-item:hover .u-header__nav-link,
+.btn-outline-primary:disabled,
+.woocommerce-shipping-calculator a.shipping-calculator-button,
+.list-group-item-action:hover,
+.list-group-item-action:focus,
+table.woocommerce-MyAccount-orders td.woocommerce-orders-table__cell-order-number a,
+.woocommerce-MyAccount-content a,
+#single-hotel__rooms .single_add_to_cart_button:not(:hover),
+.wishlist-title a.show-title-form {
+  color: var(--bs-primary); }
+
+.btn-link:hover,
+a.text-primary:hover, a.text-primary:focus,
+a.text-blue-1:hover, a.text-blue-1:focus,
+h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover,
+.h1 > a:hover, .h2 > a:hover, .h3 > a:hover, .h4 > a:hover, .h5 > a:hover, .h6 > a:hover,
+.widget ul li a:hover, .widget.widget_meta ul li a:hover,
+.u-header a:hover,
+.link-collapse {
+  color: var(--bs-primary-hover) !important; }
+
+.link-muted:hover {
+  border-color: var(--bs-primary-hover) !important; }
+
+.custom-select:focus,
+.form-control:focus,
+.post-password-form input:focus[type="password"],
+footer .widget select:focus,
+.blog-sidebar .widget select:focus,
+.shop-sidebar .widget select:focus,
+.widget_search .search-field:focus,
+.wp-block-archives select:focus,
+.wp-block-categories select:focus,
+.wp-block-search .wp-block-search__input:focus,
+.wceb_picker_wrap > p input:focus[type="text"],
+#payment .payment_methods .payment_box fieldset .wc-stripe-elements-field.focused,
+#payment .payment_methods .payment_box fieldset .wc-stripe-iban-element-field.focused {
+  box-shadow: 0 0 25px var(--bs-form-focus-box-shadow);
+  border-color: var(--bs-form-focus-border-color); }
+
+.gradient-overlay-half-bg-blue-light:before,
+.btn-soft-primary[href]:hover,
+.btn-soft-primary[href]:focus,
+.btn-soft-primary[href]:active,
+.btn-soft-primary[href].active,
+.btn-soft-primary[type]:hover,
+.btn-soft-primary[type]:focus,
+.btn-soft-primary[type]:active,
+.btn-soft-primary[type].active,
+.btn-soft-primary[href]:not(:disabled):not(.disabled):active,
+.btn-soft-primary[href]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-primary[href].dropdown-toggle,
+.btn-soft-primary[type]:not(:disabled):not(.disabled):active,
+.btn-soft-primary[type]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-primary[type].dropdown-toggle,
+.btn-soft-blue-1[href]:hover,
+.btn-soft-blue-1[href]:focus,
+.btn-soft-blue-1[href]:active,
+.btn-soft-blue-1[href].active,
+.btn-soft-blue-1[type]:hover,
+.btn-soft-blue-1[type]:focus,
+.btn-soft-blue-1[type]:active,
+.btn-soft-blue-1[type].active,
+.btn-soft-blue-1[href]:not(:disabled):not(.disabled):active,
+.btn-soft-blue-1[href]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-blue-1[href].dropdown-toggle,
+.btn-soft-blue-1[type]:not(:disabled):not(.disabled):active,
+.btn-soft-blue-1[type]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-blue-1[type].dropdown-toggle,
+.bookmark-checkbox-input:checked ~ .bookmark-checkbox-label,
+.u-go-to,
+.u-hamburger:hover .u-hamburger__inner,
+.u-hamburger:hover .u-hamburger__inner::before,
+.u-hamburger:hover .u-hamburger__inner::after,
+.u-hamburger--primary .u-hamburger__inner,
+.u-hamburger--primary .u-hamburger__inner::before,
+.u-hamburger--primary .u-hamburger__inner::after,
+.u-hamburger--primary:hover .u-hamburger__inner,
+.u-hamburger--primary:hover .u-hamburger__inner::before,
+.u-hamburger--primary:hover .u-hamburger__inner::after,
+.js-header-fix-moment .u-hamburger--white:hover .u-hamburger__inner,
+.js-header-fix-moment .u-hamburger--white:hover .u-hamburger__inner::before,
+.js-header-fix-moment .u-hamburger--white:hover .u-hamburger__inner::after,
+.u-media-player:hover .u-media-player__icon--primary,
+.u-media-player:focus .u-media-player__icon--primary,
+.u-media-viewer__icon,
+.list-pagination .page-item .page-link:hover,
+.list-pagination-1 .page-item .page-link:hover,
+.custom-pagination .page-link:hover,
+.tab-nav-rounded .nav-link.active .icon::before,
+.tab-nav-square .nav-link.active,
+.tab-nav-1-rounded .nav-link.active .icon::before,
+.tab-nav-1-square .nav-link.active,
+.tab-nav-1-inner .nav-link.active,
+.nav-icon .nav-item.active .nav-icon-action,
+.u-slick__arrow:hover,
+.u-slick__arrow-classic:hover,
+.gradient-overlay-half-bg-blue-light::before,
+.section-title::after,
+.u-datepicker .flatpickr-months,
+.u-datepicker .flatpickr-day.today,
+.u-datepicker .flatpickr-day.selected.startRange,
+.u-datepicker .flatpickr-day.selected.endRange,
+.progress-bar,
+.badge-primary,
+.btn-outline-primary:not(:disabled):hover,
+.btn-outline-primary:hover:not(:disabled),
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.mytravel-datepicker .u-datepicker .flatpickr-calendar .flatpickr-month,
+.mytravel-elementor-date-picker .flatpickr-month,
+.shopping-cart .badge {
+  background-color: var(--bs-primary); }
+
+.tab-nav-rounded .nav-link.active .icon:before,
+.shop-sidebar .widget.woocommerce-widget-layered-nav .woocommerce-widget-layered-nav-list li.chosen .woocommerce-widget-layered-nav-list__item__link:before,
+.btn-primary:not(label.btn),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not(label.btn)[class*="-white"],
+.btn-primary:not(label.btn):not([href]):not(:disabled):not(.disabled),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not(label.btn):not([href]):not(:disabled):not(.disabled)[class*="-white"],
+.btn-primary:not([href]),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not([href])[class*="-white"],
+.btn-primary:not([href]):not([href]):not(:disabled):not(.disabled),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not([href]):not([href]):not(:disabled):not(.disabled)[class*="-white"],
+.btn-custom-toggle-primary:not(:disabled):not(.disabled):active,
+.btn-custom-toggle-primary:not(:disabled):not(.disabled).active,
+.btn-custom-toggle-primary:not(:disabled):not(.disabled):active,
+.btn-custom-toggle-primary:not(:disabled):not(.disabled).active,
+.page-item.active .page-link,
+.woocommerce-widget-layered-nav-dropdown__submit,
+.woocommerce-widget-layered-nav-dropdown__submit:hover,
+.woocommerce-widget-layered-nav-dropdown__submit:focus,
+.btn-primary,
+.post-password-form input[type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[class*="-white"],
+.btn-primary:not(label.btn):not(label.wp-block-button__link),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not(label.btn):not(label.wp-block-button__link)[class*="-white"], .u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input:not(label.btn):not(label.wp-block-button__link)[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input:not(label.btn):not(label.wp-block-button__link)[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link:not(label.btn):not(label.wp-block-button__link)[class*="-white"],
+.post-password-form input:not(label.btn):not(label.wp-block-button__link)[type="submit"],
+.wp-block-button__link:not(label.btn):not(label.wp-block-button__link),
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit:not(label.btn):not(label.wp-block-button__link),
+.btn-primary:not(label.btn):not(label.wp-block-button__link):not([href]):not(:disabled):not(.disabled),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not(label.btn):not(label.wp-block-button__link):not([href]):not(:disabled):not(.disabled)[class*="-white"],
+.post-password-form input:not(label.btn):not(label.wp-block-button__link):not([href]):not(:disabled):not(.disabled)[type="submit"],
+.wp-block-button__link:not(label.btn):not(label.wp-block-button__link):not([href]):not(:disabled):not(.disabled),
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit:not(label.btn):not(label.wp-block-button__link):not([href]):not(:disabled):not(.disabled),
+.btn-primary:not([href]),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not([href])[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input:not([href])[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input:not([href])[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link:not([href])[class*="-white"],
+.post-password-form input:not([href])[type="submit"],
+.wp-block-button__link:not([href]), .shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit:not([href]),
+.btn-primary:not([href]):not([href]):not(:disabled):not(.disabled),
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:not([href]):not([href]):not(:disabled):not(.disabled)[class*="-white"],
+.post-password-form input:not([href]):not([href]):not(:disabled):not(.disabled)[type="submit"],
+.wp-block-button__link:not([href]):not([href]):not(:disabled):not(.disabled),
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit:not([href]):not([href]):not(:disabled):not(.disabled),
+.btn-social:hover,
+.wp-block-button.is-style-outline .wp-block-button__link:hover,
+.btn-primary:not(:disabled):not(.disabled):active {
+  border-color: var(--bs-primary);
+  background-color: var(--bs-primary); }
+
+.tab-nav-boxed .nav-link.active {
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover); }
+
+.btn-primary:hover,
+.post-password-form input[type="submit"]:hover,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn:hover[class*="-white"] {
+  background-color: var(--bs-primary-hover-bg);
+  border-color: var(--bs-primary-hover-border); }
+
+.btn-primary[href]:hover,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[href]:hover[class*="-white"],
+.btn-primary[href]:focus,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[href]:focus[class*="-white"],
+.btn-primary[href]:active,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[href]:active[class*="-white"],
+.btn-primary[type]:hover,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[type]:hover[class*="-white"],
+.btn-primary[type]:focus,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[type]:focus[class*="-white"],
+.btn-primary[type]:active,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[type]:active[class*="-white"],
+.btn-soft-primary[href]:hover,
+.btn-soft-primary[href]:focus,
+.btn-soft-primary[href]:active,
+.btn-soft-primary[href].active,
+.btn-soft-primary[type]:hover,
+.btn-soft-primary[type]:focus,
+.btn-soft-primary[type]:active,
+.btn-soft-primary[type].active,
+.btn-soft-blue-1[href]:hover,
+.btn-soft-blue-1[href]:focus,
+.btn-soft-blue-1[href]:active,
+.btn-soft-blue-1[href].active,
+.btn-soft-blue-1[type]:hover,
+.btn-soft-blue-1[type]:focus,
+.btn-soft-blue-1[type]:active,
+.btn-soft-blue-1[type].active,
+.btn-primary[href]:hover,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[href]:hover[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input[href]:hover[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input[href]:hover[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link[href]:hover[class*="-white"],
+.post-password-form input[href]:hover[type="submit"],
+.wp-block-button__link[href]:hover,
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit[href]:hover,
+.btn-primary[href]:focus,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[href]:focus[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input[href]:focus[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input[href]:focus[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link[href]:focus[class*="-white"],
+.post-password-form input[href]:focus[type="submit"],
+.wp-block-button__link[href]:focus,
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit[href]:focus,
+.btn-primary[href]:active,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[href]:active[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input[href]:active[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input[href]:active[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link[href]:active[class*="-white"],
+.post-password-form input[href]:active[type="submit"],
+.wp-block-button__link[href]:active,
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit[href]:active,
+.btn-primary[type]:hover,
+.post-password-form input[type="submit"]:hover,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[type]:hover[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input[type]:hover[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input[type]:hover[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link[type]:hover[class*="-white"],
+.post-password-form input[type]:hover[type="submit"], .wp-block-button__link[type]:hover,
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit[type]:hover,
+.btn-primary[type]:focus,
+.post-password-form input[type="submit"]:focus,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[type]:focus[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input[type]:focus[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input[type]:focus[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link[type]:focus[class*="-white"],
+.post-password-form input[type]:focus[type="submit"], .wp-block-button__link[type]:focus,
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit[type]:focus,
+.btn-primary[type]:active,
+.post-password-form input[type="submit"]:active,
+.u-header.js-header-fix-moment .u-header__last-item-btn .btn[type]:active[class*="-white"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .post-password-form input[type]:active[class*="-white"][type="submit"],
+.post-password-form .u-header.js-header-fix-moment .u-header__last-item-btn input[type]:active[class*="-white"][type="submit"],
+.u-header.js-header-fix-moment .u-header__last-item-btn .wp-block-button__link[type]:active[class*="-white"],
+.post-password-form input[type]:active[type="submit"],
+.wp-block-button__link[type]:active,
+.shop-sidebar .widget.widget_layered_nav .woocommerce-widget-layered-nav-dropdown__submit[type]:active {
+  box-shadow: 0 4px 11px var(--bs-primary-shadow); }
+
+.custom-social-share a:hover,
+.custom-social-share a:focus,
+.custom-social-share a:active {
+  border-color: var(--bs-primary) !important;
+  background-color: var(--bs-primary) !important; }
+
+.widget_price_filter .ui-slider .ui-slider-handle,
+.btn-custom-toggle-primary:hover,
+.sidenav .from,
+.sidenav .to,
+.checkbox-outline__input:checked ~ .checkbox-outline__label,
+.nav-choose .nav-link.active,
+.tab-nav-rounded .nav-link.active .icon::before,
+.tab-nav-1-rounded .nav-link.active .icon::before,
+.tab-nav-1-inner .nav-link.active,
+.u-slick-bordered-primary .slick-current .card,
+.u-slick__pagination li.slick-active span,
+.u-datepicker .flatpickr-day.selected,
+.btn-outline-primary,
+.wp-block-button.is-style-outline .wp-block-button__link,
+.btn-outline-primary:disabled,
+.btn-outline-primary.disabled,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):hover,
+.btn-outline-primary:hover:not(:disabled),
+.wishlist-title a.show-title-form {
+  border-color: var(--bs-primary); }
+
+.nav-choose .nav-link.active {
+  border-color: var(--bs-primary) !important; }
+
+.bg-primary,
+.js-header-fix-moment.u-header--bg-transparent .shopping-cart .badge {
+  background-color: var(--bs-primary) !important; }
+
+.u-slick-bordered-primary .slick-current .card .testimonial-quote text,
+.u-slick-bordered-primary .slick-current .card .testimonial-quote path,
+.fill-primary {
+  fill: var(--bs-primary) !important; }
+
+.stop-color-primary {
+  stop-color: var(--bs-primary) !important; }
+
+.stroke-primary {
+  stroke: var(--bs-primary) !important; }
+
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget_price_filter .ui-slider-horizontal,
+.u-range-slider .irs-bar,
+.u-range-slider .irs-bar-edge {
+  background: var(--bs-primary); }
+
+.navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu {
+  border-top-color: var(--bs-primary); }
+
+.tab-dropdown.show,
+.dropdown-custom .dropdown-nav-link.active,
+.nav-classic .nav-link.active {
+  border-bottom-color: var(--bs-primary); }
+
+.custom-dropdown .dropdown-toggle-collapse[aria-expanded="true"],
+.tab-nav-list .nav-link.active,
+.tab-nav-1-list .nav-link.active,
+.list-tab .list-link:active {
+  border-left-color: var(--bs-primary); }
+
+.tab-nav-pill .nav-item.active {
+  background-color: var(--bs-tab-nav-pill); }
+
+.flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)),
+.flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)),
+.flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)) {
+  box-shadow: -10px 0 0 #569ff7; }
+
+/* Blue Color */
+.btn-outline-blue-dark-1.disabled, .btn-outline-blue-dark-1:disabled,
+.btn-soft-blue-dark-1,
+.btn-soft-blue-dark-1[href].disabled,
+.btn-soft-blue-dark-1[href]:disabled,
+.btn-soft-blue-dark-1[type].disabled,
+.btn-soft-blue-dark-1[type]:disabled,
+.btn.btn-soft-blue-dark-1,
+.btn-text-blue-dark-1 {
+  color: var(--bs-blue-color); }
+
+.btn-blue-dark-1,
+.btn-blue-dark-1.disabled,
+.btn-blue-dark-1:disabled,
+.btn-outline-blue-dark-1:hover,
+.btn-outline-blue-dark-1:not(:disabled):not(.disabled):active,
+.btn-outline-blue-dark-1:not(:disabled):not(.disabled).active,
+.show > .btn-outline-blue-dark-1.dropdown-toggle,
+.btn-blue-dark-1:not(label.btn),
+.btn-blue-dark-1:not(label.btn):not([href]):not(:disabled):not(.disabled),
+.btn-blue-dark-1:not([href]),
+.btn-blue-dark-1:not([href]):not([href]):not(:disabled):not(.disabled),
+.btn-blue-dark-1:hover {
+  background-color: var(--bs-blue-color);
+  border-color: var(--bs-blue-color); }
+
+.btn-outline-blue-dark-1 {
+  border-color: var(--bs-blue-color); }
+
+.badge-blue-dark-1,
+.badge-outline-blue-dark-1,
+.btn-soft-blue-dark-1[href]:hover,
+.btn-soft-blue-dark-1[href]:focus,
+.btn-soft-blue-dark-1[href]:active,
+.btn-soft-blue-dark-1[href].active,
+.btn-soft-blue-dark-1[type]:hover,
+.btn-soft-blue-dark-1[type]:focus,
+.btn-soft-blue-dark-1[type]:active,
+.btn-soft-blue-dark-1[type].active,
+.btn-soft-blue-dark-1[href]:not(:disabled):not(.disabled):active, .btn-soft-blue-dark-1[href]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-blue-dark-1[href].dropdown-toggle, .btn-soft-blue-dark-1[type]:not(:disabled):not(.disabled):active, .btn-soft-blue-dark-1[type]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-blue-dark-1[type].dropdown-toggle,
+.nav-default .nav-item .nav-link.active {
+  background-color: var(--bs-blue-color); }
+
+.bg-blue-dark-1 {
+  background-color: var(--bs-blue-color) !important; }
+
+.border-blue-dark-1 {
+  border-color: var(--bs-blue-color) !important; }
+
+.text-blue-dark-1 {
+  color: var(--bs-blue-color) !important; }
+
+a.bg-blue-dark-1:hover,
+a.bg-blue-dark-1:focus,
+button.bg-blue-dark-1:hover,
+button.bg-blue-dark-1:focus {
+  background-color: var(--bs-blue-hover) !important; }
+
+.btn-blue-dark-1:not(:disabled):not(.disabled):active,
+.btn-blue-dark-1:not(:disabled):not(.disabled).active,
+.show > .btn-blue-dark-1.dropdown-toggle,
+a.badge-blue-dark-1:hover,
+a.badge-blue-dark-1:focus {
+  background-color: var(--bs-blue-hover); }
+
+.btn-blue-dark-1:hover {
+  border-color: var(--bs-blue-hover); }
+
+.btn-blue-dark-1:hover {
+  background-color: var(--bs-blue-hover-bg); }
+
+/*# sourceMappingURL=color.css.map */
